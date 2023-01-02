@@ -5,6 +5,7 @@ Welcome to my journal!
 ## Recent Entries
 
 - [Day 1: Growth Mindset](day1.md)
+- [Day 1: Learning MardDown](day1b.md)
 
 ## Archives
 
