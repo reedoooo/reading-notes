@@ -1,7 +1,7 @@
 # Day 1: Learning Markdown
 
 ### Fill in the blank  
-######Answers are in an HTML comment
+###### Answers are in an HTML comment
 
 
  1. _____, _____, and _____ are used to create small, medium and large headers. 
