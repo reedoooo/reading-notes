@@ -16,3 +16,8 @@
  10. The syntax for an HTML coment is as follows:_______   
 
 <!-- The Keybank: # ## ######, line break, bold, three dashes or stars or underlines, brackets, URL, backslash, checkbox, a carrot, <!-- --> -->
+
+
+## Things I want to know more about
+*** 
+ 1. Thing one
