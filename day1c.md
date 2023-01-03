@@ -1,4 +1,4 @@
-# How to Choose a Text Editor ### (and terminal cheat sheet)
+# How to Choose a Text Editor
 ***
 
 ## Introduction to Text Editors  
@@ -23,3 +23,16 @@ Overall the purpose of a preffered text editor is to write text or code more eff
         * Brackets
         * Sublime Text
      
+***
+
+# Terminal Cheat Sheet
+***
+ * ls - a command for listing directory contents
+ * -l - a command line option for a long listing
+ * / - this denotes the root directory
+ * / - also indicates a forward path
+ * ~ - a shortcut for home directory
+ * . - reference to your current directory
+ * .. - reference to the parent directory
+ * pwd - prints working directory
+ * cd - used for changing directory or reverting to original directory
