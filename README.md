@@ -9,6 +9,8 @@ Below is a directory that leads to my notes.
 - [Day 1c: How to Choose a text editor](102-Notes/day1c.md)
 - [Day 2a: Using Git/ACP](102-Notes/day2.md)
 - [Day 2b: A Comprehensive Git Guide Quiz](102-Notes/day2b.md)
+- [Day 2c: HTML Structuring Quiz](https://reedoooo.github.io/reading-notes/102-Notes/day2c.html)
+- [Day 2d: Using Git/ACP](https://reedoooo.github.io/reading-notes/102-Notes/day2d.html)
 - [Day 3a: Title](102-Notes/day3.md)
 - [Day 3b: Title](102-Notes/day3b.md)
 - [Day 4a: Title](102-Notes/day4.md)
