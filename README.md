@@ -5,8 +5,8 @@ Below is a directory that leads to my notes.
 ## Current Entries
 
 - [Day 1a: Growth Mindset](../blob/main/102-Notes/day1.md)
-- [Day 1b: Learning MarkDown](..//blob/main/102-Notes/day1.md)
-- [Day 1c: How to Choose a text editor](..//blob/main/102-Notes/day1.md)
+- [Day 1b: Learning MarkDown](..//blob/main/102-Notes/day1b.md)
+- [Day 1c: How to Choose a text editor](..//blob/main/102-Notes/day1c.md)
 
 ## Archives
 
