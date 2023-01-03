@@ -6,9 +6,9 @@
 ## Why it Matters  
 
 ## Text Editors vs IDEs
-    ###Text Editors  
+    *Text Editors*  
     
-    ###IDES  
+    *IDES* 
     
-    ###Options
+    *Options*
      
