@@ -28,6 +28,8 @@ Overall the purpose of a preffered text editor is to write text or code more eff
 # Terminal Cheat Sheet
 ***
  * ls - a command for listing directory contents
+ * ls -a - list contents of a directory including hidden files
+ * file - obtain information about what type of file a file or directory is
  * -l - a command line option for a long listing
  * / - this denotes the root directory
  * / - also indicates a forward path
