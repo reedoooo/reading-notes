@@ -16,7 +16,10 @@ Overall the purpose of a preffered text editor is to write text or code more eff
     IDES: An IDE (Integrated Development Environment) is the amalgamation of different software. It is able to edit text, manage files, compile code and debug programs. An IDE is typically used by more advanced coders to simplify their work flow. Starting with the singular text editing function is the best way to prepare for using an IDE.    
     
     Options: The following are some general options for beginner coders to use to edit text
-        * 
-        *
-        *
+        * NotePad++ (for windows only)
+        * TextWrangler (for macOS only)
+        * Visual Studio Code
+        * Atom
+        * Brackets
+        * Sublime Text
      
