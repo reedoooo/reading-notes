@@ -4,9 +4,9 @@ Below is a directory that leads to my notes.
 
 ## Current Entries
 
-- [Day 1a: Growth Mindset](day1.md)
-- [Day 1b: Learning MarkDown](day1b.md)
-- [Day 1c: How to Choose a text editor](day1c.md)
+- [Day 1a: Growth Mindset](102-notes/day1.md)
+- [Day 1b: Learning MarkDown](102-notes/day1b.md)
+- [Day 1c: How to Choose a text editor](102-notes/day1c.md)
 
 ## Archives
 
