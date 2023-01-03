@@ -7,7 +7,7 @@ Below is a directory that leads to my notes.
 - [Day 1a: Growth Mindset](102-Notes/day1.md)
 - [Day 1b: Learning MarkDown](102-Notes/day1b.md)
 - [Day 1c: How to Choose a text editor](102-Notes/day1c.md)
-- [Day 2a: Using Git/APC](102-Notes/day2.md)
+- [Day 2a: Using Git/ACP](102-Notes/day2.md)
 - [Day 2b: A Comprehensive Git Guide Quiz](102-Notes/day2b.md)
 - [Day 3a: Title](102-Notes/day3.md)
 - [Day 3b: Title](102-Notes/day3b.md)

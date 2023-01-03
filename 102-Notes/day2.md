@@ -1,3 +1,3 @@
-# Using Git/APC
+# Using Git/ACP
 ***
-The process of editing directories and files through the terminal intitially seemed tedious and complex, but after this lab project I realized it's actually pretty simple. Practicing pushing local files to the remote server using APC (Add, Commit, Push) in order to create my directory was super helpful for solidifying my understanding of the concepts. This excercise also helepd me understand the hierarchical nature of directories and the command land a lot better. 
+The process of editing directories and files through the terminal intitially seemed tedious and complex, but after this lab project I realized it's actually pretty simple. Practicing pushing local files to the remote server using ACP (Add, Commit, Push) in order to create my directory was super helpful for solidifying my understanding of the concepts. This excercise also helepd me understand the hierarchical nature of directories and the command line a lot better. I've made a couple websites before and used the command line a little bit, and this excercise helped resurface a little bit of my former coding knowledge. 
