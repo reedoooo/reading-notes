@@ -11,9 +11,12 @@ What is a text editor? A text editor is a peice of software held either locally 
 Overall the purpose of a preffered text editor is to write text or code more efficiently. So at the end of the day it just comes down to preference.  
 
 ## Text Editors vs IDEs
-    Text Editors  
+    Text Editors: Implicated in the name, text editors are used to edit text as well as manage text and files.   
     
-    IDES   
+    IDES: An IDE (Integrated Development Environment) is the amalgamation of different software. It is able to edit text, manage files, compile code and debug programs. An IDE is typically used by more advanced coders to simplify their work flow. Starting with the singular text editing function is the best way to prepare for using an IDE.    
     
-    Options  
+    Options: The following are some general options for beginner coders to use to edit text
+        * 
+        *
+        *
      
