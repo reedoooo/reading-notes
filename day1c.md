@@ -1,4 +1,4 @@
-# How to Choose a Text Editor
+# How to Choose a Text Editor ### (and terminal cheat sheet)
 ***
 
 ## Introduction to Text Editors  
