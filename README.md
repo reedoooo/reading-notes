@@ -1,11 +1,12 @@
-# My Journal
+# My Coding Notes
 
-Welcome to my journal!
+Below is a directory that leads to my notes.
 
-## Recent Entries
+## Current Entries
 
-- [Day 1: Growth Mindset](day1.md)
-- [Day 1: Learning MardDown](day1b.md)
+- [Day 1a: Growth Mindset](day1.md)
+- [Day 1b: Learning MarkDown](day1b.md)
+- [Day 1c: How to Choose a text editor](day1c.md)
 
 ## Archives
 
@@ -14,7 +15,7 @@ Welcome to my journal!
 
 ## About
 
-I started this journal as a way to track my progress in code 102
+I created this directory as a way to track my progress in code 102
 
 ## Contact
 
