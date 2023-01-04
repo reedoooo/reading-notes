@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Anime Tracker</title>
     <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 1em;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            color: #ccc;
+        }
         .container{
-            height: 800px;
-            width: 800px;
+            height: 300px;
+            width: 1500;
         }
         .hero-photo{
             hieght: 400;
@@ -16,7 +42,7 @@
             margin-right: auto;
             align-content: center;
         }
-        .Photo-column{
+        .photo-column{
           
         }	
         .row {
@@ -27,45 +53,33 @@
             flex: 33.33%;
             padding: 5px;
         }
-        .flex-parent-element { 
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-}
-
-.flex-child-element {
-  flex: 1;
-  border: 2px solid blueviolet;
-  margin: 10px;
-  flex-direction: column;
-  flex-wrap: wrap;
-  
-}
-
-.flex-child-element:first-child {
-  margin-right: 100px;
-  flex: 0 0 100%;
-  
-}
+        .row2 {
+            display: flex;
+        }
+        .column2 {
+            flex: 50%;
+            padding: 5px;
+        }
     </style>
 </head>
 
+<header>
+    <nav>
+        <ul>
+            <li><a href="https://reedoooo.github.io/reading-notes/102-Notes/Top-Anime.html">Top Anime</a></li>
+
+            <li><a href="https://reedoooo.github.io/reading-notes/102-Notes/Worst-Anime.html">Worst Anime</a></li>
+
+            <li><a href="https://reedoooo.github.io/reading-notes/102-Notes/Anticipated-Anime.html">Highly Anticipated Anime</a></li>
+        </ul>
+</nav><hr>
+    <center><h1>My Anime Tracker</h1></center><hr>
+</header>
+
 <main>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="https://reedoooo.github.io/reading-notes/102-Notes/Top-Anime.html">Top Anime</a></li>
-                <li><a href="https://reedoooo.github.io/reading-notes/102-Notes/Worst-Anime.html">Worst Anime</a></li>
-                <li><a href="https://reedoooo.github.io/reading-notes/102-Notes/Anticipated-Anime.html">Highly Anticipated Anime</a></li>
-            </ul>
-        </nav><hr>
-        <center><h1>My Anime Tracker</h1></center><hr>
-    </header>
-    <main>
         <div class="container">
             <section class ="hero-photo">
-                <img src="https://www.wallpaperup.com/uploads/wallpapers/2016/01/09/871942/59d862e761b3dd2ebe5ff960d96a5cc9-700.jpg" alt="HxH Character Wall">
-                <p>Top Anime: Naruto</p>
+                <img src="https://www.wallpaperup.com/uploads/wallpapers/2016/01/09/871942/59d862e761b3dd2ebe5ff960d96a5cc9-700.jpg" alt="HxH Character Wall" style="width:100%">
             </section>
         </div>
         <div class="row">
@@ -82,8 +96,8 @@
                 <p>Top Anime: Naruto</p>
             </div>
         </div>
-    <div class="flex-parent-element">
-    <section class ="flex-child-element purple">
+    <div class="row2">
+    <section class ="column2">
         <p>Anime I've Watched</p>
         <ul>
             <em><li></li></em>
@@ -93,9 +107,7 @@
             <em><li></li></em>
         </ul>
     </section>
-    </div>
-    <div class="flex-parent-element">
-    <section class ="flex-child-element green">
+    <section class ="column2">
         <p>Anime to Watch</p>
         <ul>
             <em><li></li></em>
@@ -106,14 +118,14 @@
         </ul>
     </section>
     </div>
-    </main>
     <hr>
-    <footer>
-        <center><b><p>&#169 Reed Vogt - Class 102</p></b></center>
-        <cite></cite>
-        <cite></cite>
-        <cite></cite>
-    </footer>
 </main>
+
+<footer>
+    <center><b><p>&#169 Reed Vogt - Class 102</p></b></center>
+    <cite></cite>
+    <cite></cite>
+    <cite></cite>
+</footer>
 
 </html>
