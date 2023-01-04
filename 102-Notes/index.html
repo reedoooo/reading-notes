@@ -1,6 +1,28 @@
 <!DOCTYPE html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Anime Tracker</title>
+    <style>
+        .Hero-photo{
+            hieght: 400;
+            width: 50%;
+            display: block;
+            flex-wrap: wrap;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            align-content: center;
+        }
+        .Photo-column{
+            width 33.3%;
+        }	
+        .container {
+	        display: flex;
+	    }	
+        .List-column{
+
+        }
+    </style>
 </head>
 
 <main>
@@ -15,24 +37,30 @@
         <center><h1>My Anime Tracker</h1></center><hr>
     </header>
     <main>
-    <section id ="Hero-Photo">
-            <img src="https://www.wallpaperup.com/uploads/wallpapers/2016/01/09/871942/59d862e761b3dd2ebe5ff960d96a5cc9-700.jpg" alt="HxH Character Wall" width = "500" height = "350">
+    <div class="container">
+        <section class ="Hero-photo">
+            <img src="https://www.wallpaperup.com/uploads/wallpapers/2016/01/09/871942/59d862e761b3dd2ebe5ff960d96a5cc9-700.jpg" alt="HxH Character Wall">
             <p>Top Anime: Naruto</p>
         </section>
-    <section id ="Photo Column">
-        <img src="https://wallpaperaccess.com/full/8010.png" alt="Sasuke and Naruto six paths modes" width = "500" height = "350">
+    </div>
+    <div class="container">
+    <section class ="Photo-column">
+        <img src="https://wallpaperaccess.com/full/8010.png" alt="Sasuke and Naruto six paths modes" width = "500" height = "350" style="float: left;">
         <p>Top Anime: Naruto</p>
     </section>
-    <section id ="Photo Column">
-        <img src="https://pbs.twimg.com/profile_images/1187128110564536320/yNqQOMB-_400x400.jpg" alt="Photo of main food wars character">
+    </div>  
+    <section class ="Photo-column">
+        <img src="https://pbs.twimg.com/profile_images/1187128110564536320/yNqQOMB-_400x400.jpg" alt="Photo of main food wars character" style="float: right;"">
         <p>Worst Anime: Food Wars</p>
     </section>
-    <section id ="Photo Column">
-        <img src="https://prod.assets.earlygamecdn.com/images/Solo-Leveling.png" alt="Photo of main character holding weapon" width = "550" height = "350">
+    <div class="container">
+    <section class ="Photo-column">
+        <img src="https://prod.assets.earlygamecdn.com/images/Solo-Leveling.png" alt="Photo of main character holding weapon" width = "550" height = "350" style="float: left; position: relative; left: 50%; align-items: center;">
         <p>Highly Anticipated Anime: Solo Leveling</p>
     </section>
-
-    <section id ="list column">
+    </div><hr>
+    <div class="container">
+    <section class ="list-column" style="margin-left: auto;">
         <p>Anime I've Watched</p>
         <ul>
             <em><li></li></em>
@@ -42,7 +70,9 @@
             <em><li></li></em>
         </ul>
     </section>
-    <section id ="list column">
+    </div>
+    <div class="container" style="display: table; margin: 0 auto;">
+    <section class ="list-column" style="margin: 0 2px; "">
         <p>Anime to Watch</p>
         <ul>
             <em><li></li></em>
@@ -52,6 +82,7 @@
             <em><li></li></em>
         </ul>
     </section>
+    </div>
     </main>
     <hr>
     <footer>
