@@ -14,7 +14,7 @@ Below is a directory that leads to my notes.
 - [Day 3a: CSS Quiz](https://reedoooo.github.io/reading-notes/102-Notes/day3.html)
 - [Day 3b: Dynamic Websites with Javascript](https://reedoooo.github.io/reading-notes/102-Notes/day3b.html)
 - [Day 4a: Javascript Function Notes](https://reedoooo.github.io/reading-notes/102-Notes/day4.html)
-- [Day 4c: Title](102-Notes/day4c.md)
+- [Day 4b: Operators and Loops](https://reedoooo.github.io/reading-notes/102-Notes/day4b.html)
 - [Day 5a: Title](102-Notes/day5.md)
 - [Day 5b: Title](102-Notes/day5b.md)
 
