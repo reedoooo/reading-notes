@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Class: 01</title>
+        <style>
+            body{
+                background-color: black;
+                text-align: center;
+            };
+            div{
+                background-color: white;
+            }
+            h1{
+                color:white;
+                text-align: center;
+                background-color: rgba(110, 99, 99, 0.3);
+            };
+            
+        </style>
+        <script>
+            
+            let promptOne = null;
+            let promptTwo = null;
+            let promptThree = null;
+            let promptFour = null;
+
+            windowAlert1 = function(){
+                promptOne = prompt("How old are you?");
+                alert('You are ' + promptOne + ' years old');
+                console.log(promptOne)
+                promptTwo = prompt("What's your name?");
+                alert(promptTwo + ' is ' + promptOne + ' years old.');
+                console.log(promptTwo)
+                promptThree = prompt("What's your Myers Briggs?");
+                alert(promptTwo + ' is ' + 'an ' + promptThree + ' who is ' + promptOne + ' years old.');
+                console.log(promptThree)
+                promptFour = prompt("What's your favorite color?");
+                alert(promptTwo + ' is ' + 'an ' + promptThree + ' who is ' + promptOne + ' years old' + ' and who likes the color ' + promptFour + '.');
+                console.log(promptFour)
+            }
+            windowAlert1(); 
+        </script>
+    </head>
+    <body>
+        <main>
+        <div>
+            <h1>Class 1 Lab</h1>
+            <p style="color:aqua; background-color:antiquewhite">How old are you?</p>
+            <p style="color:blueviolet; background-color:grey; font-size: larger; font-family: fantasy;">What's your name?</p>
+            <p style="color:palevioletred; background-color:navy; font-family:monospace;">What's your Myers Briggs?</p>
+            <p style="color:darkgrey; background-color:darkred; font-size: large; font-family: 'Times New Roman', Times, serif;">What's your favorite color?</p>
+        </div>
+        </main>
+        
+    </body>
+    <footer>
+
+    </footer>
+</html>
