@@ -21,7 +21,7 @@ Below is a directory that leads to my notes.
 ## Code 201 Reading Notes
 - [Day 1: Introduction to HTML/Miscellaneous](https://reedoooo.github.io/reading-notes/201-Notes/class-1-reading.html)
 - [Day 2: HTML, CSS and Javascript](https://reedoooo.github.io/reading-notes/201-Notes/class-2-reading.html)
-- [Day 3: Title](https://reedoooo.github.io/reading-notes/201-Notes/class-3-reading.html)
+- [Day 3: HTML Lists, Control Flow with JS, and the CSS Box Model](https://reedoooo.github.io/reading-notes/201-Notes/class-3-reading.html)
 - [Day 4: Title](https://reedoooo.github.io/reading-notes/201-Notes/class-4-reading.html)
 - [Day 5: Title](https://reedoooo.github.io/reading-notes/201-Notes/class-5-reading.html)
 - [Day 6: Title](https://reedoooo.github.io/reading-notes/201-Notes/class-6-reading.html)
