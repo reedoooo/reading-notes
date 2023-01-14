@@ -24,7 +24,7 @@ Below is a directory that leads to my notes.
 - [Day 3: HTML Lists, Control Flow with JS, and the CSS Box Model](https://reedoooo.github.io/reading-notes/201-Notes/class-3-reading.html)
 - [Day 4: Links, CSS Flow, and Functions](https://reedoooo.github.io/reading-notes/201-Notes/class-4-reading.html)
 - [Day 5: HTML Media and CSS text styles](https://reedoooo.github.io/reading-notes/201-Notes/class-5-reading.html)
-- [Day 6: Title](https://reedoooo.github.io/reading-notes/201-Notes/class-6-reading.html)
+- [Day 6: Problem Domain, Objects and the DOM](https://reedoooo.github.io/reading-notes/201-Notes/class-6-reading.html)
 - [Day 7: Title](https://reedoooo.github.io/reading-notes/201-Notes/class-7-reading.html)
 - [Day 8: Title](https://reedoooo.github.io/reading-notes/201-Notes/class-8-reading.html)
 - [Day 9: Title](https://reedoooo.github.io/reading-notes/201-Notes/class-9-reading.html)
