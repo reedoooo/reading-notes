@@ -26,7 +26,7 @@ Below is a directory that leads to my notes.
 - [Day 5: HTML Media and CSS text styles](https://reedoooo.github.io/reading-notes/201-Notes/class-5-reading.html)
 - [Day 6: Problem Domain, Objects and the DOM](https://reedoooo.github.io/reading-notes/201-Notes/class-6-reading.html)
 - [Day 7: The DOM](https://reedoooo.github.io/reading-notes/201-Notes/class-7-reading.html)
-- [Day 8: Title](https://reedoooo.github.io/reading-notes/201-Notes/class-8-reading.html)
+- [Day 8: CSS Flexbox](https://reedoooo.github.io/reading-notes/201-Notes/class-8-reading.html)
 - [Day 9: Title](https://reedoooo.github.io/reading-notes/201-Notes/class-9-reading.html)
 - [Day 10: Title](https://reedoooo.github.io/reading-notes/201-Notes/class-10-reading.html)
 - [Day 11: Title](2https://reedoooo.github.io/reading-notes/201-Notes/class-11-reading.html)
