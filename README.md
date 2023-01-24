@@ -31,7 +31,7 @@ Below is a directory that leads to my notes.
 - [Day 10: Debugging](https://reedoooo.github.io/reading-notes/201-Notes/class-10-reading.html)
 - [Day 11: Audio, Video, Images](https://reedoooo.github.io/reading-notes/201-Notes/class-11-reading.html)
 - [Day 12: Chart.js and Canvas](https://reedoooo.github.io/reading-notes/201-Notes/class-12-reading.html)
-- [Day 13: Title](https://reedoooo.github.io/reading-notes/201-Notes/class-13-reading.html)
+- [Day 13: Localstorage](https://reedoooo.github.io/reading-notes/201-Notes/class-13-reading.html)
 - [Day 14: Title](https://reedoooo.github.io/reading-notes/201-Notes/class-14-reading.html)
 - [Day 15: Title](https://reedoooo.github.io/reading-notes/201-Notes/class-15-reading.html)
 
