@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  flex-direction: column;
+  color: #343F3E;
+  background-color: #DCEDFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border-radius: 10px;
+  background-color: #94B0DA;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #343F3E;
+  margin: 0;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+#second-heading {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 2px solid #DDD;
+  border-width: auto;
+  width:fit-content;
+  margin: 10px 0 5px;
+  padding: 3px;
+}
+
+h4 {
+  font-weight: bold;
+  margin: 10px 0 5px;
+  border-bottom: 2px solid #DDD;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: disc;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  color:black;
+  position: relative;
+}
+
+li:before {
+  /* Add the lines between the sentences */
+  content: '';
+  position: absolute;
+  left: -20px;
+  right: 0;
+  bottom: -6px;
+  border-top: 2px solid #DDD;
+}
+
+ul li ul li.sub:before {
+  /* Add the lines between the sentences */
+  list-style:square;
+  position: absolute;
+  left: -20px;
+  right: 0;
+  bottom: -6px;
+  border:none;
+}
+
+ul li ul li ul li.sub2:before {
+  /* Add the lines between the sentences */
+  list-style:square;
+  position: absolute;
+  left: -20px;
+  right: 0;
+  bottom: -6px;
+  border:none;
+}
+
+em {
+  font-style: italic;
+  color: #999;
+}
+
+.date {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 5px;
+}
+
+.new-section {
+  color: #343F3E;
+  padding: 10px;
+  padding-bottom: 15px;
+  background-color: #94B0DA;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

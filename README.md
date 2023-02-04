@@ -15,10 +15,9 @@ Below is a directory that leads to my notes.
 - [Day 3b: Dynamic Websites with Javascript](https://reedoooo.github.io/reading-notes/102-Notes/day3b.html)
 - [Day 4a: Javascript Function Notes](https://reedoooo.github.io/reading-notes/102-Notes/day4.html)
 - [Day 4b: Operators and Loops](https://reedoooo.github.io/reading-notes/102-Notes/day4b.html)
-- [Day 5a: Title](102-Notes/day5.md)
-- [Day 5b: Title](102-Notes/day5b.md)
 
 ## Code 201 Reading Notes
+
 - [Day 1: Introduction to HTML/Miscellaneous](https://reedoooo.github.io/reading-notes/201-Notes/class-1-reading.html)
 - [Day 2: HTML, CSS and Javascript](https://reedoooo.github.io/reading-notes/201-Notes/class-2-reading.html)
 - [Day 3: HTML Lists, Control Flow with JS, and the CSS Box Model](https://reedoooo.github.io/reading-notes/201-Notes/class-3-reading.html)
@@ -32,13 +31,28 @@ Below is a directory that leads to my notes.
 - [Day 11: Audio, Video, Images](https://reedoooo.github.io/reading-notes/201-Notes/class-11-reading.html)
 - [Day 12: Chart.js and Canvas](https://reedoooo.github.io/reading-notes/201-Notes/class-12-reading.html)
 - [Day 13: Localstorage](https://reedoooo.github.io/reading-notes/201-Notes/class-13-reading.html)
-- [Day 14: Title](https://reedoooo.github.io/reading-notes/201-Notes/class-14-reading.html)
-- [Day 15: Title](https://reedoooo.github.io/reading-notes/201-Notes/class-15-reading.html)
+
+## Code 301 Reading Notes
+
+- [Day 1:](https://reedoooo.github.io/reading-notes/301-Notes/notes1.html)
+- [Day 2:](https://reedoooo.github.io/reading-notes/301-Notes/notes2.html)
+- [Day 3:](https://reedoooo.github.io/reading-notes/301-Notes/notes3.html)
+- [Day 4:](https://reedoooo.github.io/reading-notes/301-Notes/notes4.html)
+- [Day 5:](https://reedoooo.github.io/reading-notes/301-Notes/notes5.html)
+- [Day 6:](https://reedoooo.github.io/reading-notes/301-Notes/notes6.html)
+- [Day 7:](https://reedoooo.github.io/reading-notes/301-Notes/notes7.html)
+- [Day 8:](https://reedoooo.github.io/reading-notes/301-Notes/notes8.html)
+- [Day 9:](https://reedoooo.github.io/reading-notes/301-Notes/notes9.html)
+- [Day 10:](https://reedoooo.github.io/reading-notes/301-Notes/notes10.html)
+- [Day 11:](https://reedoooo.github.io/reading-notes/301-Notes/notes11.html)
+- [Day 12:](https://reedoooo.github.io/reading-notes/301-Notes/notes12.html)
+- [Day 13:](https://reedoooo.github.io/reading-notes/301-Notes/notes13.html)
+- [Day 14:](https://reedoooo.github.io/reading-notes/301-Notes/notes14.html)
+- [Day 15:](https://reedoooo.github.io/reading-notes/301-Notes/notes15.html)
 
 ## Archives
 
 - [January 2022](january2022.md)
-
 
 ## About
 
