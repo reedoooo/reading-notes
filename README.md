@@ -34,7 +34,7 @@ Below is a directory that leads to my notes.
 
 ## Code 301 Reading Notes
 
-- [Day 1:](https://reedoooo.github.io/reading-notes/301-Notes/notes1.html)
+- [Day 1: Introduction to React and Components](https://reedoooo.github.io/reading-notes/301-Notes/notes1.html)
 - [Day 2:](https://reedoooo.github.io/reading-notes/301-Notes/notes2.html)
 - [Day 3:](https://reedoooo.github.io/reading-notes/301-Notes/notes3.html)
 - [Day 4:](https://reedoooo.github.io/reading-notes/301-Notes/notes4.html)
