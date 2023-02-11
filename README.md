@@ -34,21 +34,32 @@ Below is a directory that leads to my notes.
 
 ## Code 301 Reading Notes
 
+### **Pre Work**
+
 - [Day 1: Introduction to React and Components](https://reedoooo.github.io/reading-notes/301-Notes/notes1.html)
-- [Day 2:](https://reedoooo.github.io/reading-notes/301-Notes/notes2.html)
-- [Day 3:](https://reedoooo.github.io/reading-notes/301-Notes/notes3.html)
-- [Day 4:](https://reedoooo.github.io/reading-notes/301-Notes/notes4.html)
-- [Day 5:](https://reedoooo.github.io/reading-notes/301-Notes/notes5.html)
-- [Day 6:](https://reedoooo.github.io/reading-notes/301-Notes/notes6.html)
-- [Day 7:](https://reedoooo.github.io/reading-notes/301-Notes/notes7.html)
-- [Day 8:](https://reedoooo.github.io/reading-notes/301-Notes/notes8.html)
-- [Day 9:](https://reedoooo.github.io/reading-notes/301-Notes/notes9.html)
-- [Day 10:](https://reedoooo.github.io/reading-notes/301-Notes/notes10.html)
-- [Day 11:](https://reedoooo.github.io/reading-notes/301-Notes/notes11.html)
-- [Day 12:](https://reedoooo.github.io/reading-notes/301-Notes/notes12.html)
-- [Day 13:](https://reedoooo.github.io/reading-notes/301-Notes/notes13.html)
-- [Day 14:](https://reedoooo.github.io/reading-notes/301-Notes/notes14.html)
-- [Day 15:](https://reedoooo.github.io/reading-notes/301-Notes/notes15.html)
+
+### **Week One**
+
+- [Day 2: State and Props](https://reedoooo.github.io/reading-notes/301-Notes/notes2.html)
+- [Day 3: Passing Functions as Props](https://reedoooo.github.io/reading-notes/301-Notes/notes3.html)
+- [Day 4: React and Forms](https://reedoooo.github.io/reading-notes/301-Notes/notes4.html)
+- [Day 5: Putting it all together](https://reedoooo.github.io/reading-notes/301-Notes/notes5.html)
+- [Day 6: NODE.JS](https://reedoooo.github.io/reading-notes/301-Notes/notes6.html)
+
+### **Week Two**
+
+- [Day 7: REST](https://reedoooo.github.io/reading-notes/301-Notes/notes7.html)
+- [Day 8: APIs](https://reedoooo.github.io/reading-notes/301-Notes/notes8.html)
+- [Day 9: Functional Programming](https://reedoooo.github.io/reading-notes/301-Notes/notes9.html)
+- [Day 10: In memory storage](https://reedoooo.github.io/reading-notes/301-Notes/notes10.html)
+- [Day 11: MongoDB and Mongoose](https://reedoooo.github.io/reading-notes/301-Notes/notes11.html)
+
+### **Week Three**
+
+- [Day 12: CRUD](https://reedoooo.github.io/reading-notes/301-Notes/notes12.html)
+- [Day 13: More CRUD](https://reedoooo.github.io/reading-notes/301-Notes/notes13.html)
+- [Day 14: TBD](https://reedoooo.github.io/reading-notes/301-Notes/notes14.html)
+- [Day 15: Authentication](https://reedoooo.github.io/reading-notes/301-Notes/notes15.html)
 
 ## Archives
 
