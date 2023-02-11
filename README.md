@@ -32,13 +32,13 @@ Below is a directory that leads to my notes.
 - [Day 12: Chart.js and Canvas](https://reedoooo.github.io/reading-notes/201-Notes/class-12-reading.html)
 - [Day 13: Localstorage](https://reedoooo.github.io/reading-notes/201-Notes/class-13-reading.html)
 
-## Code 301 Reading Notes
+## **Code 301 Reading Notes**
 
 ### **Pre Work**
 
 - [Day 1: Introduction to React and Components](https://reedoooo.github.io/reading-notes/301-Notes/notes1.html)
 
-### **Week One**
+### **Week One: React**
 
 - [Day 2: State and Props](https://reedoooo.github.io/reading-notes/301-Notes/notes2.html)
 - [Day 3: Passing Functions as Props](https://reedoooo.github.io/reading-notes/301-Notes/notes3.html)
@@ -46,7 +46,7 @@ Below is a directory that leads to my notes.
 - [Day 5: Putting it all together](https://reedoooo.github.io/reading-notes/301-Notes/notes5.html)
 - [Day 6: NODE.JS](https://reedoooo.github.io/reading-notes/301-Notes/notes6.html)
 
-### **Week Two**
+### **Week Two: Server-side and NODE.JS**
 
 - [Day 7: REST](https://reedoooo.github.io/reading-notes/301-Notes/notes7.html)
 - [Day 8: APIs](https://reedoooo.github.io/reading-notes/301-Notes/notes8.html)
@@ -54,7 +54,7 @@ Below is a directory that leads to my notes.
 - [Day 10: In memory storage](https://reedoooo.github.io/reading-notes/301-Notes/notes10.html)
 - [Day 11: MongoDB and Mongoose](https://reedoooo.github.io/reading-notes/301-Notes/notes11.html)
 
-### **Week Three**
+### **Week Three: Server-side and MongoDB**
 
 - [Day 12: CRUD](https://reedoooo.github.io/reading-notes/301-Notes/notes12.html)
 - [Day 13: More CRUD](https://reedoooo.github.io/reading-notes/301-Notes/notes13.html)
