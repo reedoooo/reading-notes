@@ -22,35 +22,88 @@
     </header>
     <main>
         <div id="second-heading">
-            <h2>Class X: Notes</h2>
-            <div class="date">February 1, 2023</div>
+            <h2>Class 3: Notes</h2>
+            <div class="date">February 14, 2023</div>
         </div>
 
         <section class="all-notes">
             <!------------------------------NOTES SECTION DIVIDER-------------------------------->
             <div class="new-section">
-                <h4>Sub</h4>
+                <h4>React Docs - lists and keys</h4>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>The .map() method returns a new array with the results of calling a provided function on every
+                        element in the original array.</li>
+                    <li>We can use the .map() method to loop through the array and return a new array of JSX elements
+                        that represent each value.</li>
+                    <li>Each list item needs a unique "key" prop</li>
+                    <li>The "key" prop is used by React to keep track of which items have changed, been added, or been
+                        removed. It helps optimize the rendering process and improve performance by minimizing
+                        unnecessary re-renders.
+                    </li>
                 </ul>
             </div>
             <!------------------------------NOTES SECTION DIVIDER-------------------------------->
             <div class="new-section">
-                <h4>Sub</h4>
+                <h4>The Spread Operator</h4>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>The spread operator is a syntax for expanding an iterable (e.g. an array or an object) into a
+                        list of arguments or elements.</li>
+                    <li>The spread operator can:<ul>
+                            <li class="sub">Combine arrays or objects</li>
+                            <li class="sub">Copy an array or object</li>
+                            <li class="sub">Add elements to an array</li>
+                            <li class="sub">Pass arguments to a function</li>
+                        </ul>
+                    </li>
+                    <li>Using the Spread Operator to Combine two Arrays
+                        <pre>
+                            <code>
+                            const array1 = [1, 2, 3];
+                            const array2 = [4, 5, 6];
+                            const combinedArray = [...array1, ...array2];
+                            console.log(combinedArray);
+                            </code>
+                        </pre>
+                    </li>
+                    <li>Using the Spread Operator to Add a New Item to an Array
+                        <pre>
+                            <code>
+                            const originalArray = [1, 2, 3];
+                            const newArray = [...originalArray, 4];
+                            console.log(newArray);
+                            </code>
+                        </pre>
+                    </li>
+                    <li>Using the Spread Operator to Combine two Objects into One
+                        <pre>
+                            <code>
+                            const obj1 = { a: 1, b: 2 };
+                            const obj2 = { c: 3, d: 4 };
+                            const combinedObject = { ...obj1, ...obj2 };
+                            </code>
+                        </pre>
+                    </li>
                 </ul>
             </div>
             <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-            
+            <div class="new-section">
+                <h4>How to Pass Functions between Components</h4>
+                <ul>
+                    <li>The developer creates a function in the parent component and passes it as a prop to the child
+                        component.</li>
+                    <li>The increment function is a callback function that increases the count in the state of the
+                        parent component by one. It
+                        is passed down to the child component as a prop, which allows the child component to update the
+                        count in the parent component.</li>
+                    <li>You can pass a method from a parent component into a child component by defining the method in
+                        the parent component and passing it as a prop to the child component.</li>
+                    <li>The child component can invoke a method that was passed to it from a parent component by calling
+                        the method using the props object and passing any necessary arguments. For example: this.props.methodName(argument1,
+                        argument2)</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+
             <!------------------------------NOTES SECTION DIVIDER-------------------------------->
 
         </section>
