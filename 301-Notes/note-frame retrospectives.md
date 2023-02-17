@@ -1,7 +1,7 @@
 # Retrospective
 
 - Write a retrospective as though you were me by filling in any generic information that I do not provide. The retrospective a) must be written in paragraph form, b) must fill provide missing information and text to put the pragraph together, and c) must consider the answers to the following questions:
-  - What did we do today? We did a coding challenge that had questions about the use of Array.filter(). We did a lab in which we had to add a Modal to the website we've been building.
+  - What did we do today? We did a coding challenge that had questions about the use of Array.blank(). We did a lab in which we had to add a Modal to the website we've been building.
   - What went well, that I might forget if I don’t write down?
     * Answer:
   - What did I learn today?
@@ -35,3 +35,18 @@
     3. I keep getting stuck on little things and become stubborn about trying to solve them. I've gotta ask a TA next time.
     4. I'm a little unsure about the spread operator in class 03 reading
     5. Assignment Status: (complete)
+
+- Write a retrospective as though you were me by filling in any generic information that I do not provide. The retrospective a) must be written in paragraph form, b) must fill provide missing information and text to put the pragraph together, and c) must consider the answers to the following questions:
+  - What did we do today? We did a coding challenge that had questions about the use of Array.sort(). We did a lab in which we had to add a search feature to the website we've been building so that we could search the animal photos on our site by their names and the number of horns they had.
+  - What went well, that I might forget if I don’t write down?
+    - Answer: The .includes() function is useful in so many situation.
+  - What did I learn today?
+    - Answer: I learned how to do conditionals (also called ternary statements) and use the conditional operator a lot better. I also learned how to use the filter() method to filter through data which I can see being very useful in future coding projects.
+  - What should I do differently next time?
+    - Answer: Next time I should probably stick more to the guidelines than try to go off on my own and try things that're too difficult
+  - What still puzzles me, or what do I need to learn more about?
+    - Answer: I tried to learn how to add custom animations into bootstrap but it was too confusing so I'll come back to it tomorrow.
+  - Is the assignment complete?
+    - Answer: Yes I completed the assignment.
+
+

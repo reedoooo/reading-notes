@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title></title>
+    <title>#5 - Putting it all together</title>
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -22,35 +22,59 @@
     </header>
     <main>
         <div id="second-heading">
-            <h2>Class X: Notes</h2>
-            <div class="date">February 1, 2023</div>
+            <h2>Class 5: Notes</h2>
+            <div class="date">February 16, 2023</div>
         </div>
 
         <section class="all-notes">
             <!------------------------------NOTES SECTION DIVIDER-------------------------------->
             <div class="new-section">
-                <h4>Sub</h4>
+                <h4>Thinking in React</h4>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><bold>Single Responsibility Principle</bold> (SRP) states that a component should only do one thing.
+                        It applies to components by ensuring that each component should have a single responsibility,
+                        such as rendering UI or handling user input.</li>
+                    <li>Building a "static" version of an application means creating a version that renders the UI but
+                        does not have interactivity or state. It can help in breaking down the application into smaller
+                        components and figuring out the component hierarchy.</li>
+                    <li>After building a static version, interactivity and state need to be added to make the
+                        application dynamic. This involves identifying which components need to have state and how to
+                        pass state down to
+                        child components.</li>
+                    <li>Three questions to determine if something is state:
+                        <ul>
+                            <li class="sub">Does it remain unchanged over time? If so, it probably isn't state.
+                            </li>
+                            <li class="sub">Does it remain unchanged over time? If so, it probably isn't state.
+                            </li>
+                            <li class="sub">Can you compute it based on any other state or props in your component? If
+                                so, it isn't state.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>State should live in the component that needs it and any components below it in the hierarchy
+                        that need to access and/or
+                        modify it.</li>
                 </ul>
             </div>
             <!------------------------------NOTES SECTION DIVIDER-------------------------------->
             <div class="new-section">
-                <h4>Sub</h4>
+                <h4>Higher-order Functions</h4>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>A higher-order function is a function that takes one or more functions as arguments and/or
+                        returns a function as its result.</li>
+                    <li>The greaterThan function takes a number as its argument and returns a new function that takes
+                        another number as its argument and returns a boolean value indicating whether the second number
+                        is greater than the first. Line 2 of the function is returning a new function that takes a
+                        number as its argument and compares it to the original number passed to greaterThan.</li>
+                    <li>Map and reduce are higher-order functions that operate on arrays.
+                        Map applies a function to each element in an array and returns a new array with the modified
+                        elements. Reduce applies a function to each element in an array and returns a single value as
+                        the result, such as a sum or concatenation of the elements.</li>
                 </ul>
             </div>
             <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-            
+
             <!------------------------------NOTES SECTION DIVIDER-------------------------------->
 
         </section>
