@@ -49,4 +49,16 @@
   - Is the assignment complete?
     - Answer: Yes I completed the assignment.
 
+- Write a retrospective as though you were me by filling in any generic information that I do not provide. The retrospective a) must be written in paragraph form, b) must fill provide missing information and text to put the pragraph together, and c) must consider the answers to the following questions:
+  - What did we do today? We did a coding challenge that had questions about the use of Reduce.blank(). We did a lab in which we edited a template of a portfolio to build our own portfolio.
+  - What went well, that I might forget if I don’t write down?
+    - Answer: I learned how to use gradients to edit with CSS but I feel like I've gotta use them again soon to remember them.
+  - What did I learn today?
+    - Answer: I learned how to use Array.reduce(), how to use gradients, and how to work with data arrays better.
+  - What should I do differently next time?
+    - Answer: I tried doing my CSS from scratch. Next time I'm going to use bootstrap or something like that for my styling.
+  - What still puzzles me, or what do I need to learn more about?
+    - Answer: I'm still a little confused on some instances of using the Array.reduce()
+  - Is the assignment complete?
+    - Answer: Yes it is complate
 
