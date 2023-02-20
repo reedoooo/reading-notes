@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Methods and Functions Overview</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div id="header-div">
+            <h1>Methods and Functions Overview</h1>
+        </div>
+    </header>
+    <main>
+        <div id="second-heading">
+            <h2>Personal Notes</h2>
+            <div class="date">February 19, 2023</div>
+        </div>
+
+        <section class="all-notes">
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h3>Arrays</h3>
+                <ul>
+                    <li>
+                        <h4>Array.forEach()</h4>
+                        <p>The forEach() method executes a provided function once for each array element.</p>
+                        <code>
+                            <span class="keyword">const</span> addValues = (<span class="keyword">arr</span>, value) =&gt; {
+                            <span class="keyword">arr</span>.push(value);
+                            };
+
+                            <span class="keyword">const</span> addNumbers = (num, <span class="keyword">arr</span>, times, callback) =&gt; {
+                            <span class="keyword">const</span> iterations = <span class="keyword">new</span> <span class="class-name">Array</span>(times).fill(<span class="keyword">null</span>);
+                            iterations.forEach(() =&gt; {
+                                <span class="keyword">callback</span>(<span class="keyword">arr</span>, num);
+                            });
+                            <span class="keyword">return</span> <span class="keyword">arr</span>;
+                            };
+                        </code>
+                        <p class="example-text">Example: A function named addValues that takes in an array and a value
+                            and pushes the value
+                            into the array. This function does not need a return statement..</p>
+                    </li>
+                    <li>
+                        <h4>Array.map()</h4>
+                        <p>The map() method creates a new array populated with the results of calling a provided
+                            function on every element in the calling array.</p>
+                        <code>
+                            <span class="keyword">const</span> charCode = (<span class="keyword">arr</span>) =&gt; {
+                            <span class="keyword">const</span> newArray = <span class="keyword">arr</span>.map((num) =&gt; <span class="keyword">num</span>.charCodeAt(0));
+                            <span class="keyword">return</span> newArray;
+                            };
+                        </code>
+                        <p class="example-text">Example: A function named charCode that, given an array of letters as an
+                            input, uses map to return a new array where each element is the result of the `charCodeAt` method on the
+                            original array element.
+                        </p>
+                        <code>
+                            <span class="keyword">const</span> toLastNames = (people) =&gt; {
+                            <span class="keyword">let</span> firstLastList = people.map((person) =&gt; {
+                                <span class="keyword">let</span> firstLast = person.firstName + ' ' + person.lastName;
+                                <span class="keyword">return</span> firstLast;
+                            });
+                            <span class="keyword">return</span> firstLastList;
+                            };
+                        </code>
+                        <p class="example-text">Example: A function that iterates over an array of people objects and
+                            creates a new list of each person's full name using the array method 'map'.</p>
+                    </li>
+
+                    <li>
+                        <h4>Array.sort()</h4>
+                        <p>The sort() method sorts the elements of an array in place and returns the reference to the
+                            same array, now sorted. The default sort order is ascending, built upon converting the elements into
+                            strings, then comparing their sequences of UTF-16 code units values.</p>
+                        <code>
+                            <span class="keyword">const</span> alphabetizeBetter = (arr) =&gt; {
+                            <span class="keyword">return</span> arr.sort((a, b) =&gt; a.toLowerCase().localeCompare(b.toLowerCase()));
+                            };
+                        </code>
+                        <p class="example-text">Example: A function named alphabetizeBetter that takes in an array of
+                            strings and returns the same array, with the strings sorted alphabetically. Capitalization
+                            should not change the sort order of two strings.
+                        </p>
+                    </li>
+
+                    <li>
+                        <h4>Array.filter()</h4>
+                        <p>The filter() method creates a shallow copy of a portion of a given array, filtered down to
+                            just the elements from the given array that pass the test implemented by the provided function.</p>
+                        <code>
+                            <span class="keyword">const</span> notInFirstArray = (forbiddenValues, arr) =&gt; {
+                            <span class="keyword">return</span> arr.filter((num) =&gt; {
+                            <span class="keyword">return</span> !forbiddenValues.includes(num);
+                            });
+                            };
+                        </code>
+                        <p class="example-text">Example: A a function named notInFirstArray that, given two arrays as
+                            input, uses filter to return an array of all the elements in the second array that are not included in the first
+                            array.</p>
+                    </li>
+
+                    <li>
+                        <h4>Array.reduce()</h4>
+                        <p>The reduce() method executes a user-supplied "reducer" callback function on each element of
+                            the array, in order, passing in the return value from the calculation on the preceding element. The final result
+                            of running the reducer across all elements of the array is a single value.</p>
+                        <code>
+                            <span class="keyword">const</span> reversedString = (str) =&gt; {
+                            <span class="keyword">const</span> reverseName = str.split('').reduce((previous, current) =&gt; {
+                            <span class="keyword">return</span> current + previous;
+                            }, '');
+                            <span class="keyword">return</span> reverseName;
+                            };
+                        </code>
+                        <p class="example-text">Example: A function named reversedString that takes in a string and
+                            returns a string with the letters in reverse order.</p>
+                    </li>
+
+                    <li>
+                        <h4>Array.pop()</h4>
+                        <p>The pop() method removes the last element from an array and returns that element. This method
+                            changes the length of the array.</p>
+                        <code>
+                            const fruits = ['apple', 'banana', 'pear', 'kiwi'];
+                            const lastFruit = fruits.pop(); // kiwi
+                            console.log(fruits); // ['apple', 'banana', 'pear']
+                        </code>
+                        <p class="example-text">Example: An array of fruits is created and the last element is removed
+                            using the pop() method, which is then stored in the variable 'lastFruit'. The output will display the array
+                            without the last element.</p>
+                    </li>
+
+                    <li>
+                        <h4>Array.fill()</h4>
+                        <p>The fill() method changes all elements in an array to a static value, from a start index
+                            (default 0) to an end index (default array.length). It returns the modified array.</p>
+                        <code>
+                            const numbers = [1, 2, 3, 4, 5];
+                            numbers.fill(0, 2, 4); // [1, 2, 0, 0, 5]
+                        </code>
+                        <p class="example-text">Example: An array of numbers is created and the fill() method is used to
+                            change the elements at index 2 and 3 to 0. The output will display the modified array.</p>
+                    </li>
+
+                    <li>
+                        <h4>Array.toLocaleString()</h4>
+                        <p>The toLocaleString() method returns a string representing the elements of the array. The
+                            elements are converted  to Strings using their toLocaleString methods and these Strings are separated by a
+                            locale-specific String (such as a comma ",").</p>
+                        <code>
+                            const numbers = [1000, 2000, 3000];
+                            const formattedNumbers = numbers.toLocaleString('en-US', { style: 'currency', currency: 'USD' }); // $1,000.00,$2,000.00,$3,000.00
+                        </code>
+                        <p class="example-text">Example: An array of numbers is created and the toLocaleString() method
+                            is used to format  the numbers as currency in US dollars. The output will display the formatted numbers as a
+                            string.</p>
+                    </li>
+
+                    <li>
+                        <h4>Array.toString()</h4>
+                        <p>The toString() method returns a string representing the specified array and its elements.</p>
+                        <code>
+                            const arr = [1, 2, 3, 4, 5];
+                            const arrString = arr.toString(); // '1,2,3,4,5'
+                        </code>
+                    </li>
+
+                    <li>
+                        <h4>Array.shift()</h4>
+                        <p>The shift() method removes the first element from an array and returns that removed element.
+                            This method changes the length of the array.</p>
+                        <code>
+                            const arr = [1, 2, 3, 4, 5];
+                            const first = arr.shift(); // 1
+                            console.log(arr); // [2, 3, 4, 5]
+                        </code>
+                    </li>
+
+                    <li>
+                        <h4>Array.includes()</h4>
+                        <p>The includes() method determines whether an array includes a certain value among its entries,
+                            returning true or false as appropriate.</p>
+                        <code>
+                            const arr = [1, 2, 3, 4, 5];
+                            const includesThree = arr.includes(3); // true
+                            const includesSix = arr.includes(6); // false
+                        </code>
+                    </li>
+
+                    <li>
+                        <h4>Array.join()</h4>
+                        <p>The join() method creates and returns a new string by concatenating all of the elements in an
+                            array (or an array-like object), separated by commas or a specified separator string. If the array has
+                            only one item, then that item will be returned without using the separator.</p>
+                        <code>
+                            const arr = ['apple', 'banana', 'cherry'];
+                            const joined = arr.join(', '); // 'apple, banana, cherry'
+                        </code>
+                    </li>
+
+                    <li>
+                        <h4>Array.splice()</h4>
+                        <p>The splice() method changes the contents of an array by removing or replacing existing
+                            elements and/or adding new
+                            elements in place. To access part of an array without modifying it, see slice().</p>
+                        <code>
+                            const arr = [1, 2, 3, 4, 5];
+                            arr.splice(2, 1); // removes 1 element at index 2
+                            console.log(arr); // [1, 2, 4, 5]
+                            arr.splice(2, 0, 'a', 'b'); // adds 'a' and 'b' at index 2
+                            console.log(arr); // [1, 2, 'a', 'b', 4, 5]
+                        </code>
+                    </li>
+
+                    <li>
+                        <h4>Array.slice()</h4>
+                        <p>The slice() method returns a shallow copy of a portion of an array into a new
+                            array object selected from start to end (end not included) where start and end represent the index of
+                            items in that array. The original array will not be modified.</p>
+                        <code class="language-javascript">
+                            const arr = ['apple', 'banana', 'cherry', 'date', 'elderberry'];
+                            const newArr = arr.slice(1, 4);
+                            console.log(newArr); // Output: ['banana', 'cherry', 'date']
+                        </code>
+                        <p class="example-text">Example: Using slice() to create a new array containing a portion of the
+                            original array.</p>
+                    </li>
+                    
+                    <li>
+                        <h4>Array.reverse()</h4>
+                        <p>The reverse() method reverses an array in place and returns the reference to the
+                            same array, the first array element now becoming the last, and the last array element becoming the
+                            first. In other words, elements order in the array will be turned towards the direction opposite to that
+                            previously stated.</p>
+                        <code class="language-javascript">
+                            const arr = [1, 2, 3, 4, 5];
+                            arr.reverse();
+                            console.log(arr); // Output: [5, 4, 3, 2, 1]
+                        </code>
+                        <p class="example-text">Example: Using reverse() to reverse the order of an array.</p>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h3>Strings</h3>
+                <ul>
+                    <li>
+                        <h4>String.charAt()</h4>
+                        <p>The charAt() method of a String instance returns a new string consisting of the single UTF-16
+                            code unit located at the specified offset into the string.</p>
+                    </li>
+                    <li>
+                        <h4>String.localeCompare()</h4>
+                        <p>The localeCompare() method returns a number indicating whether a reference string comes
+                            before, or after, or is the same as the given string in sort order. In implementations with Intl.Collator API
+                            support, this method simply calls Intl.Collator.</p>
+                    </li>
+
+                    <li>
+                        <h4>String.substring()</h4>
+                        <p>The substring() method returns the part of the string from the start index up to and
+                            excluding the end index, or to the end of the string if no end index is supplied.</p>
+                    </li>
+
+                    <li>
+                        <h4>String.split()</h4>
+                        <p>The split() method takes a pattern and divides a String into an ordered list of substrings by
+                            searching for the pattern, puts these substrings into an array, and returns the array.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h3>Strings</h3>
+                <ul>
+                    <li>
+                        <h4>String.charAt()</h4>
+                        <p>The charAt() method of a String instance returns a new string consisting of the single UTF-16
+                            code unit located at the specified offset into the string.</p>
+                    </li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        </section>
+    </main>
+</body>
+
+</html>
+
+<!------------------------------OTHER MODULES-------------------------------->
+
+<!-- <div class="new-section">
+    <h4>Sub</h4>
+    <ul>
+        <li></li>
+        <li>list<ul>
+                <li class="sub">sub</li>
+                <li class="sub">sub</li>
+                <li class="sub">sub</li>
+            </ul>
+        </li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div> -->
+
+<!-- <div class="new-section">
+    <h4>Sub</h4>
+    <ul>
+        <li></li>
+        <li>list<ul>
+                <li class="sub">sub</li>
+                <li class="sub">sub</li>
+                <li class="sub">list2<ul>
+                        <li class="sub2">sub</li>
+                        <li class="sub2">sub</li>
+                        <li class="sub2">sub</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div> -->
