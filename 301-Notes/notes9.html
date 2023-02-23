@@ -5,13 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title></title>
+    <title>Functional Programming</title>
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
@@ -22,43 +20,118 @@
     </header>
     <main>
         <div id="second-heading">
-            <h2>Class X: Notes</h2>
-            <div class="date">February 1, 2023</div>
+            <h2>Class 9: Notes</h2>
+            <div class="date">February 23, 2023</div>
         </div>
-
         <section class="all-notes">
             <!------------------------------NOTES SECTION DIVIDER-------------------------------->
             <div class="new-section">
-                <h4>Sub</h4>
+                <h4>Functional Programming Concepts</h4>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>What is functional programming?
+                        <ul>
+                            <li>Functional programming is a programming paradigm that focuses on writing code using
+                                functions.
+                                It emphasizes the use of immutable data and avoids side effects.</li>
+                        </ul>
+                    </li>
+                    <li>What is a pure function and how do we know if something is a pure function?
+                        <ul>
+                            <li>A pure function is a function that has no side effects and always returns the same
+                                output for a
+                                given input. We can determine if a function is pure if it meets the following criteria:
+                                <ul>
+                                    <li>It doesn't modify any external state.</li>
+                                    <li>It doesn't depend on external state.</li>
+                                    <li>It doesn't have any side effects, such as I/O operations or network requests.
+                                    </li>
+                                    <li>It always returns the same output for the same input.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>What are the benefits of a pure function?
+                        <ul>
+                            <li>Pure functions have several benefits, including:
+                                <ul>
+                                    <li>They are easier to reason about and test, since they always return the same
+                                        output for a
+                                        given input.</li>
+                                    <li>They are less error-prone, since they don't modify external state and don't have
+                                        side
+                                        effects.</li>
+                                    <li>They can be easily composed together to create more complex functions.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>What is immutability?
+                        <ul>
+                            <li>Immutability is a concept in functional programming that states that once a variable is
+                                assigned
+                                a value, it cannot be changed. Instead, new values are created when a change is made,
+                                and the
+                                original value is left unchanged. This helps to prevent unintended side effects and
+                                makes code
+                                easier to reason about.</li>
+                        </ul>
+                    </li>
+                    <li>What is Referential transparency?
+                        <ul>
+                            <li>Referential transparency is a property of a function that means it can be replaced with
+                                its
+                                return value without changing the behavior of the program. In other words, a function is
+                                referentially transparent if it can be substituted with its output without affecting the
+                                program's behavior.</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
             <div class="new-section">
-                <h4>Sub</h4>
+                <h4>Node JS Tutorial for Beginners #6 - Modules and require()</h4>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>What is a module?
+                        <ul>
+                            <li>A module is a file that contains reusable code in Node.js. It can contain functions,
+                                variables,
+                                and
+                                other code that can be used in other parts of a program.</li>
+                        </ul>
+                    </li>
+                    <li>What does the word ‘require’ do?
+                        <ul>
+                            <li>The 'require' keyword is used to load a module into a Node.js program. It allows us to
+                                access
+                                code
+                                in other modules from the current module.</li>
+                        </ul>
+                    </li>
+                    <li>How do we bring another module into the file that we are working in?
+                        <ul>
+                            <li>To bring another module into the file we are working in, we use the 'require' keyword
+                                followed
+                                by
+                                the name of the module we want to load. For example, 'const myModule =
+                                require('./myModule.js');'
+                            </li>
+                        </ul>
+                    </li>
+                    <li>What do we have to do to make a module available?
+                        <ul>
+                            <li>To make a module available, we need to export the functions or variables we want to make
+                                available
+                                using the 'module.exports' object. This makes them accessible to other modules that load
+                                this
+                                module
+                                using the 'require' keyword. For example, 'module.exports.myFunction = myFunction;'</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-            
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-
         </section>
     </main>
 </body>
-
 </html>
-
 <!------------------------------OTHER MODULES-------------------------------->
 
 <!-- <div class="new-section">

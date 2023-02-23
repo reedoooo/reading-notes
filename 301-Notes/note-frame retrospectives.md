@@ -62,3 +62,24 @@
   - Is the assignment complete?
     - Answer: Yes it is complate
 
+- Write a retrospective as though you were me by filling in any generic information that I do not provide. The retrospective a) must be written in paragraph form, b) must fill provide missing information and text to put the pragraph together, and c) must consider the answers to the following questions:
+  - What did we do today?
+    - Answer: We learned how to use Express and Node.js to build the back-end server side of coding. We added the code that we wrote yesterday using the APIs to a new server repository and then we added a new function to the website which uses information from a weather API to display the weather and description of weather. We also did a code challenge for string methods.
+  - What went well, that I might forget if I don’t write down?
+    - Answer: I think struggling with this lab was actually the part that went well since I now have really solid understanding of how express works and my understanding of other concepts like react and methods has improved quite a bit as well.
+  - What did I learn today?
+    - Answer: It's hard to choose one thing since I learned so much. I Learned how to use express I guess.
+  - What should I do differently next time?
+    - Answer: I should ask other students or TAs when I get stuck.
+  - What still puzzles me, or what do I need to learn more about?
+    - Answer: I'm still a little confused about the REACT capitalized thing idk what it's called but it's like the global variable thing.
+  - Is the assignment complete?
+    - Answer: Yes sort of. I have it completed in a local folder where I combined fron and back but yes the back end works.
+
+- Below is a list of details about my day:
+    1. detail
+    2. detail
+    3. detail
+    4. detail
+    5. Puzzler: topic
+    6. Assignment Status: (complete/incomplete)
