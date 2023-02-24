@@ -1,99 +1,162 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title></title>
-
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Call Stack</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div id="header-div">
-            <h1>In memory storage</h1>
-        </div>
+      <div id="header-div">
+        <h1>In memory storage</h1>
+      </div>
     </header>
     <main>
-        <div id="second-heading">
-            <h2>Class X: Notes</h2>
-            <div class="date">February 1, 2023</div>
+      <div id="second-heading">
+        <h2>Class 10: Notes</h2>
+        <div class="date">February 1, 2023</div>
+      </div>
+      <section class="all-notes">
+        <div class="new-section">
+          <h3>Understanding the JavaScript Call Stack</h3>
+          <ul>
+            <li>What is a ‘call’?</li>
+            <li>How many ‘calls’ can happen at once?</li>
+            <li>What does LIFO mean?</li>
+            <li>
+              Draw an example of a call stack and the functions that would need
+              to be invoked to generate that call stack.
+            </li>
+            <li>What causes a Stack Overflow?</li>
+          </ul>
+          <div class="notes">
+            <h4>What is a ‘call’?</h4>
+            <p>
+              A 'call' refers to the invocation of a function in JavaScript.
+              When a function is called, the execution of the function is
+              temporarily paused while the function is executed, and then the
+              program resumes execution from where it left off.
+            </p>
+            <h4>How many ‘calls’ can happen at once?</h4>
+            <p>
+              JavaScript is single-threaded, which means that only one 'call'
+              can be processed at a time. When a function is called, it is added
+              to the call stack, and it is not removed from the stack until its
+              execution is complete.
+            </p>
+            <h4>What does LIFO mean?</h4>
+            <p>
+              LIFO stands for 'Last-In-First-Out'. In the context of the
+              JavaScript call stack, this means that the most recently added
+              function is the first to be removed from the stack when its
+              execution is complete. This ensures that functions are executed in
+              the order in which they were called.
+            </p>
+            <h4>
+              Draw an example of a call stack and the functions that would need
+              to be invoked to generate that call stack.
+            </h4>
+            <p>An example of a call stack for the following code:</p>
+            <pre>
+                function add(a, b) {
+                return a + b;
+                }
+                function multiply(a, b) {
+                return a * b;
+                }
+
+                function square(n) {
+                return multiply(n, n);
+                }
+
+                function calculate() {
+                var x = add(1, 2);
+                var y = square(x);
+                return y;
+                }
+
+                calculate();
+                </pre>
+            <p>Call Stack:</p>
+            <pre>
+                calculate
+                square
+                multiply
+                add
+            </pre>
+            <h4>What causes a Stack Overflow?</h4>
+            <p>
+              A stack overflow occurs when the call stack exceeds its maximum
+              size. This can happen when a function calls itself recursively
+              without a proper termination condition. Each recursive call adds a
+              new frame to the call stack, and if there are too many recursive
+              calls, the call stack will eventually run out of space.
+            </p>
+          </div>
         </div>
-
-        <section class="all-notes">
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-            <div class="new-section">
-                <h4>Sub</h4>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-            <div class="new-section">
-                <h4>Sub</h4>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-            
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-
-        </section>
+        <div class="new-section">
+          <h3>JavaScript error messages</h3>
+          <ul>
+            <li>What is a ‘reference error’?</li>
+            <li>What is a ‘syntax error’?</li>
+            <li>What is a ‘range error’?</li>
+            <li>What is a ‘type error’?</li>
+            <li>What is a breakpoint?</li>
+            <li>What does the word ‘debugger’ do in your code?</li>
+          </ul>
+          <div class="notes">
+            <h4>What is a ‘reference error’?</h4>
+            <p>
+              A 'reference error' occurs when a variable or function is
+              referenced but has not been declared. This could happen, for
+              example, if a variable is misspelled or if a function is called
+              before it is defined.
+            </p>
+            <h4>What is a ‘syntax error’?</h4>
+            <p>
+              A 'syntax error' occurs when the JavaScript code violates the
+              language syntax rules. This could happen, for example, if a
+              closing bracket is missing, or if there is a typo in a keyword.
+            </p>
+            <h4>What is a ‘range error’?</h4>
+            <p>
+              A 'range error' occurs when a value is not within an expected
+              range. This could happen, for example, if an array index is
+              negative, or if a number is outside the valid range for a
+              mathematical operation.
+            </p>
+            <h4>What is a ‘type error’?</h4>
+            <p>
+              A 'type error' occurs when an operation is performed on a value of
+              the wrong type. This could happen, for example, if a string is
+              treated as a number, or if a function is called with the wrong
+              number or type of arguments.
+            </p>
+            <h4>What is a breakpoint?</h4>
+            <p>
+              A breakpoint is a point in the JavaScript code where the execution
+              is paused. This is typically used for debugging purposes, to allow
+              the programmer to inspect the state of the program at that point
+              in time.
+            </p>
+            <h4>What does the word ‘debugger’ do in your code?</h4>
+            <p>
+              The word 'debugger' is used to insert a breakpoint into the
+              JavaScript code. When the program is run in a debugger
+              environment, the execution will pause at the point where the
+              'debugger' statement is located, allowing the programmer to
+              inspect the state of the program at that point in time.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
-
-<!------------------------------OTHER MODULES-------------------------------->
-
-<!-- <div class="new-section">
-    <h4>Sub</h4>
-    <ul>
-        <li></li>
-        <li>list<ul>
-                <li class="sub">sub</li>
-                <li class="sub">sub</li>
-                <li class="sub">sub</li>
-            </ul>
-        </li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-</div> -->
-
-<!-- <div class="new-section">
-    <h4>Sub</h4>
-    <ul>
-        <li></li>
-        <li>list<ul>
-                <li class="sub">sub</li>
-                <li class="sub">sub</li>
-                <li class="sub">list2<ul>
-                        <li class="sub2">sub</li>
-                        <li class="sub2">sub</li>
-                        <li class="sub2">sub</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-</div> -->
