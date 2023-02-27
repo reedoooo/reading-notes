@@ -1,99 +1,127 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    php Copy code
+    <title>CRUD Notes</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title></title>
-
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div id="header-div">
-            <h1>CRUD</h1>
-        </div>
+      <div id="header-div">
+        <h1>CRUD</h1>
+      </div>
     </header>
     <main>
-        <div id="second-heading">
-            <h2>Class X: Notes</h2>
-            <div class="date">February 1, 2023</div>
+      <div id="second-heading">
+        <h2>Class 12: Notes</h2>
+        <div class="date">February 28, 2023</div>
+      </div>
+      less Copy code
+      <section class="all-notes">
+        <!-- NOTES SECTION DIVIDER -->
+        <div class="new-section">
+          <h4>Status Codes Based On REST Methods</h4>
+          <ul>
+            <li>
+              100’s = Informational status codes, indicating that the server has
+              received the request and is continuing to process it.
+            </li>
+            <li>
+              200’s = Success status codes, indicating that the request was
+              successfully received, understood, and accepted.
+            </li>
+            <li>
+              300’s = Redirection status codes, indicating that further action
+              needs to be taken to complete the request.
+            </li>
+            <li>
+              400’s = Client error status codes, indicating that the server
+              could not understand the request due to client error.
+            </li>
+            <li>
+              500’s = Server error status codes, indicating that the server
+              failed to fulfill a valid request.
+            </li>
+            <li>
+              Status code 202 means that the request has been accepted for
+              processing, but the processing has not been completed.
+            </li>
+            <li>
+              Status code 308 means that the resource has been permanently moved
+              to a new URL.
+            </li>
+            <li>
+              If an update didn't return data to a client, the appropriate code
+              to use would be 204 No Content.
+            </li>
+            <li>
+              If a resource used to exist but no longer does, the appropriate
+              code to use would be 410 Gone.
+            </li>
+            <li>
+              The 'Forbidden' status code is 403 Forbidden, indicating that the
+              client does not have access rights to the content.
+            </li>
+          </ul>
         </div>
+        <!-- NOTES SECTION DIVIDER -->
+        <div class="new-section">
+          <h4>
+            Build A REST API With Node.js, Express, & MongoDB - Quick - First 20
+            minutes
+          </h4>
+          <ul>
+            <li>
+              It is important to pull the MongoDB database string out of the
+              server and put it into the .env file for security purposes.
+            </li>
+            <li>
+              Middleware is software that acts as a bridge between an operating
+              system or database and applications, managing communication
+              between them.
+            </li>
+            <li>
+              app.use(express.json()) is a built-in middleware function in
+              Express that parses incoming requests with JSON payloads.
+            </li>
+            <li>
+              The /:id in a route is a parameter that can be accessed in the
+              request object's params property, allowing for dynamic routing.
+            </li>
+            <li>
+              The main difference between PUT and PATCH is that PUT updates the
+              entire resource, while PATCH updates only the specified fields of
+              the resource.
+            </li>
+            <li>
+              To make a default value in a schema, you can set a default
+              property in the schema definition.
+            </li>
+            <li>
+              A 500 error status code means that there was an internal server
+              error that prevented the server from fulfilling the request.
+            </li>
+            <li>
+              The difference between a status 200 and a status 201 is that a
+              status 200 means that the request was successful, while a status
+              201 means that the request was successful and a new resource has
+              been created.
+            </li>
+          </ul>
+        </div>
+        <!-- NOTES SECTION DIVIDER -->
 
-        <section class="all-notes">
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-            <div class="new-section">
-                <h4>Sub</h4>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-            <div class="new-section">
-                <h4>Sub</h4>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-            
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-
-        </section>
+        bash Copy code
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
-
-<!------------------------------OTHER MODULES-------------------------------->
-
-<!-- <div class="new-section">
-    <h4>Sub</h4>
-    <ul>
-        <li></li>
-        <li>list<ul>
-                <li class="sub">sub</li>
-                <li class="sub">sub</li>
-                <li class="sub">sub</li>
-            </ul>
-        </li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-</div> -->
-
-<!-- <div class="new-section">
-    <h4>Sub</h4>
-    <ul>
-        <li></li>
-        <li>list<ul>
-                <li class="sub">sub</li>
-                <li class="sub">sub</li>
-                <li class="sub">list2<ul>
-                        <li class="sub2">sub</li>
-                        <li class="sub2">sub</li>
-                        <li class="sub2">sub</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-</div> -->
