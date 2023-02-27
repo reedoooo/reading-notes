@@ -1,99 +1,126 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MongoDB and Mongoose</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title></title>
-
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div id="header-div">
-            <h1>MongoDB and Mongoose</h1>
-        </div>
+      <div id="header-div">
+        <h1>MongoDB and Mongoose</h1>
+      </div>
     </header>
     <main>
-        <div id="second-heading">
-            <h2>Class X: Notes</h2>
-            <div class="date">February 1, 2023</div>
+      <div id="second-heading">
+        <h2>Class 11: Notes</h2>
+        <div class="date">February 27, 2023</div>
+      </div>
+      <section class="all-notes">
+        <div class="new-section">
+          <h4>Differences between SQL and NoSQL databases:</h4>
+          <table>
+            <tr>
+              <th>SQL</th>
+              <th>NoSQL</th>
+            </tr>
+            <tr>
+              <td>Uses a structured data model</td>
+              <td>Uses an unstructured data model</td>
+            </tr>
+            <tr>
+              <td>Requires a fixed schema</td>
+              <td>Has a flexible schema</td>
+            </tr>
+            <tr>
+              <td>Uses vertical scaling to handle more load</td>
+              <td>Uses horizontal scaling to handle more load</td>
+            </tr>
+            <tr>
+              <td>Transactions are supported</td>
+              <td>Transactions may not be supported</td>
+            </tr>
+            <tr>
+              <td>ACID compliant</td>
+              <td>May not be ACID compliant</td>
+            </tr>
+          </table>
         </div>
 
-        <section class="all-notes">
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-            <div class="new-section">
-                <h4>Sub</h4>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-            <div class="new-section">
-                <h4>Sub</h4>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-            
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        <div class="new-section">
+          <h4>What kind of data is a good fit for SQL databases?</h4>
+          <p>
+            Data that has a structured format and requires consistency in
+            relationships between different data entities. Example: financial
+            data.
+          </p>
+        </div>
 
-        </section>
+        <div class="new-section">
+          <h4>What kind of data is a good fit for NoSQL databases?</h4>
+          <p>
+            Data that is unstructured and does not necessarily follow a rigid
+            schema. Example: social media data.
+          </p>
+        </div>
+
+        <div class="new-section">
+          <h4>Which type of database is best for hierarchical data storage?</h4>
+          <p>
+            NoSQL databases are better suited for hierarchical data storage.
+          </p>
+        </div>
+
+        <div class="new-section">
+          <h4>Which type of database is best for scalability?</h4>
+          <p>
+            NoSQL databases are better suited for scalability, especially when
+            dealing with large amounts of unstructured data.
+          </p>
+        </div>
+
+        <div class="new-section">
+          <h4>Video: SQL vs NoSQL</h4>
+          <ul>
+            <li>SQL stands for Structured Query Language</li>
+            <li>A relational database is a type of SQL database</li>
+            <li>
+              Relational databases work with tables with fixed relationships
+              between them
+            </li>
+            <li>
+              A schema defines the structure of a table in a relational database
+            </li>
+            <li>
+              NoSQL databases do not use a fixed schema and can handle
+              unstructured data
+            </li>
+            <li>
+              NoSQL databases aremore highly scalable and use horizontal scaling
+              to handle more load
+            </li>
+            <li>MongoDB is an example of a NoSQL database</li>
+            <li>MongoDB stores data in collections of JSON-like documents</li>
+            <li>
+              MongoDB is more flexible than SQL because it does not require a
+              fixed schema, allowing for easier modifications to the data
+              structure
+            </li>
+            <li>
+              The disadvantage of a NoSQL database is that it may not support
+              transactions and may not be ACID compliant.
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
-
-<!------------------------------OTHER MODULES-------------------------------->
-
-<!-- <div class="new-section">
-    <h4>Sub</h4>
-    <ul>
-        <li></li>
-        <li>list<ul>
-                <li class="sub">sub</li>
-                <li class="sub">sub</li>
-                <li class="sub">sub</li>
-            </ul>
-        </li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-</div> -->
-
-<!-- <div class="new-section">
-    <h4>Sub</h4>
-    <ul>
-        <li></li>
-        <li>list<ul>
-                <li class="sub">sub</li>
-                <li class="sub">sub</li>
-                <li class="sub">list2<ul>
-                        <li class="sub2">sub</li>
-                        <li class="sub2">sub</li>
-                        <li class="sub2">sub</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-</div> -->

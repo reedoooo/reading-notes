@@ -83,3 +83,16 @@
     4. detail
     5. Puzzler: topic
     6. Assignment Status: (complete/incomplete)
+
+- Write a retrospective as though you were me by filling in any generic information that I do not provide. The retrospective a) must be written in paragraph form, b) must fill provide missing information and text to put the pragraph together, and c) must consider the answers to the following questions:
+  - What did we do today? We did a coding challenge that had questions about the use of object functions. We also did a lab in which we had to clean up our react code and add it back onto a server.
+  - What went well, that I might forget if I don’t write down?
+    * Answer: Today was relatively brutal but if I had to say something went well I'd say I got a better understanding of how servers work
+  - What did I learn today?
+    * Answer: I learned how to debug (a ton)
+  - What should I do differently next time?
+    * Answer: There isn't really anyhting else I could've done to get my quesitons about the servers fully answered since my computer's terrible processing power is what kept me from being able to join remo
+  - What still puzzles me, or what do I need to learn more about?
+    * Answer: I'm really very confused by the Python stuff since when we learend it I was too busy trying to figure out my server stuff
+  - Is the assignment complete?
+    * Answer: Yes the code is cleaned up but no the server is not deployed because the backend API server part is not deployed.
