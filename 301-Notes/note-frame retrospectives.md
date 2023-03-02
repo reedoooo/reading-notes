@@ -96,3 +96,30 @@
     * Answer: I'm really very confused by the Python stuff since when we learend it I was too busy trying to figure out my server stuff
   - Is the assignment complete?
     * Answer: Yes the code is cleaned up but no the server is not deployed because the backend API server part is not deployed.
+
+
+- Write a retrospective as though you were me by filling in any generic information that I do not provide. The retrospective a) must be written in paragraph form, b) must fill provide missing information and text to put the pragraph together, and c) must consider the answers to the following questions:
+  - What did we do today? We did a coding challenge that had questions about the use of string methods. We also did a lab in which we set up a new proejct called 'can-of-books' that, when complete, will let you search through a library of books.
+  - What went well, that I might forget if I don’t write down?
+    * Answer: Today was the first smooth day I've had in a while. The instructions were clear and I just followed the steps
+  - What did I learn today?
+    * Answer: Today I learned how to use MangoDb to set up a server
+  - What should I do differently next time?
+    * Answer: Next time I think I could improve by just listening a little more during the lecture so that I don't have to look back at class notes.
+  - What still puzzles me, or what do I need to learn more about?
+    * Answer: I'm still not really sure what Mongoose is honestly...
+  - Is the assignment complete?
+    * Answer: Yes it is complete
+
+- Write a retrospective as though you were me by filling in any generic information that I do not provide. The retrospective a) must be written in paragraph form, b) must fill provide missing information and text to put the pragraph together, and c) must consider the answers to the following questions:
+  - What did we do today? We did a coding challenge covering the topic of tegex again. We also did a lab in which we had to add a search form to our library app so that we could search for books from the server database.
+  - What went well, that I might forget if I don’t write down?
+    * Answer: I got a ton done. I finished more CSS and did all of the functionality (the add and delete as well as the search function).
+  - What did I learn today?
+    * Answer: Today I learned a lot about how webpacks work since my website had an issue compiling my site and kept getting an error relating to my webpack
+  - What should I do differently next time?
+    * Answer: Honestly I don't think I could have done anything any better
+  - What still puzzles me, or what do I need to learn more about?
+    * Answer: Nothing still puzzles me I solved everything from the last day
+  - Is the assignment complete?
+    * Answer: yes
