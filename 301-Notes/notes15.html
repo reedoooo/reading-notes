@@ -1,99 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    php Copy code
     <title>Authentication</title>
 
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div id="header-div">
-            <h1>Authentication</h1>
-        </div>
+      <div id="header-div">
+        <h1>Authentication</h1>
+      </div>
     </header>
     <main>
-        <div id="second-heading">
-            <h2>Class X: Notes</h2>
-            <div class="date">February 1, 2023</div>
+      <div id="second-heading">
+        <h2>Class 15: Notes</h2>
+        <div class="date">February 3, 2023</div>
+      </div>
+      <section class="all-notes">
+        <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        <div class="new-section">
+          <h4>What is OAuth?</h4>
+          <ul>
+            <li>
+              OAuth is an open standard protocol that enables users to grant
+              access to their protected resources without sharing their
+              credentials, such as their username and password, with third-party
+              applications. Instead, OAuth provides a secure and standardized
+              way for users to authenticate themselves using a third-party
+              service like Google or Facebook. This protocol enables user
+              authentication in a secure and reliable way, and it is commonly
+              used in web applications and APIs.
+            </li>
+            <li>Example of using OAuth</li>
+            <li>Steps of OAuth authentication</li>
+          </ul>
+        </div>
+        <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        <div class="new-section">
+          <h4>What is OpenID?</h4>
+          <ul>
+            <li>
+              OpenID is an open standard protocol that allows users to
+              authenticate their identity with a third-party provider (e.g.,
+              Google or Facebook) and then use that identity to access other
+              websites or applications. It is commonly used in web applications
+              and APIs to provide a more seamless user authentication
+              experience.
+            </li>
+          </ul>
+        </div>
+        <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        <div class="new-section">
+          <h4>Authorization and Authentication Flows</h4>
+          <ul>
+            <li>
+              Authentication is the process of verifying a user's identity,
+              while authorization is the process of granting access to specific
+              resources or actions based on the user's identity and permissions.
+            </li>
+            <li>
+              There are several different flows for authentication and
+              authorization, each designed for different use cases:
+            </li>
+            <ul>
+              <li>
+                Authorization Code Flow is an OAuth flow that involves
+                exchanging an authorization code for an access token. This flow
+                is commonly used for server-to-server communication or in
+                situations where the client application can securely store the
+                client secret.
+              </li>
+              <li>
+                Authorization Code Flow with Proof Key for Code Exchange (PKCE)
+                is a more secure version of the Authorization Code Flow that
+                involves using a dynamically generated secret (known as a "code
+                verifier") instead of the client secret to authenticate the
+                client application.
+              </li>
+              <li>
+                Implicit Flow with Form Post is an OAuth flow that involves
+                returning the access token to the client application in the URL
+                fragment instead of the response body. This flow is commonly
+                used for single-page applications (SPAs) where the client
+                application does not have a backend server to store the client
+                secret.
+              </li>
+              <li>
+                Client Credentials Flow is an OAuth flow that involves the
+                client application authenticating with the authorization server
+                using its own credentials (e.g., client ID and client secret) to
+                request an access token for itself.
+              </li>
+              <li>
+                Device Authorization Flow is an OAuth flow that involves the
+                user authorizing access to their protected resources on a device
+                that does not have a web browser (e.g., a TV or game console).
+                The device displays a code that the user must enter on a
+                separate device (e.g., a phone or computer) to complete the
+                authentication process.
+              </li>
+              <li>
+                Resource Owner Password Flow is an OAuth flow that involves the
+                client application requesting the user's credentials (e.g.,
+                username and password) and exchanging them for an access token.
+                This flow is not recommended for most use cases because it
+                requires the client application to store the user's credentials,
+                which can be a security risk.
+              </li>
+            </ul>
+          </ul>
         </div>
 
-        <section class="all-notes">
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-            <div class="new-section">
-                <h4>Sub</h4>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-            <div class="new-section">
-                <h4>Sub</h4>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-
-        </section>
+        <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
-
-<!------------------------------OTHER MODULES-------------------------------->
-
-<!-- <div class="new-section">
-    <h4>Sub</h4>
-    <ul>
-        <li></li>
-        <li>list<ul>
-                <li class="sub">sub</li>
-                <li class="sub">sub</li>
-                <li class="sub">sub</li>
-            </ul>
-        </li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-</div> -->
-
-<!-- <div class="new-section">
-    <h4>Sub</h4>
-    <ul>
-        <li></li>
-        <li>list<ul>
-                <li class="sub">sub</li>
-                <li class="sub">sub</li>
-                <li class="sub">list2<ul>
-                        <li class="sub2">sub</li>
-                        <li class="sub2">sub</li>
-                        <li class="sub2">sub</li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-</div> -->
