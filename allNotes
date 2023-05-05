@@ -1,0 +1,19 @@
+/* ----- REACT HOOKS ----- */
+
+What Are Hooks?
+    React hooks are functions that allow you to use React state and other react features inside functional components.
+
+Basic Hooks
+    * useState - handles reactive data (changes state)
+    * useEffect - takes a function you define as its first argument, then runs it any time the state or count is updated
+        > Usually followed by an array of dependencies empty array means no deps so it only runs once when initialized. If you want to run that functio againt then you do that by adding the state to the dependency's array. React will then track that value and anytime it changs it will rerun the function. Might wanna run some teardown code when component is destroyed. they way you impplement a treadown function is by returning a function from the useEffect callback. React will take the returned function and destroyed when the function is destroyed.
+    * useContext - allows you to work with react's context api which allows you to share or scope values throughout the component tree. 
+
+Additional Hooks
+    * useReducer
+    * useCallback
+    * useMemo
+    * useRef
+    * useImperativeHandle
+    * useLayoutEffect
+    * useDebugValue
