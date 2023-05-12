@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Command Line Notes/Learning</title>
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div id="header-div">
+      <h1>Command Line Notes/Learning</h1>
+    </div>
+  </header>
+  <main>
+    <div id="second-heading">
+      <h2>Class 0: Prep Your Mindset</h2>
+      <div class="date">February 1, 2023</div>
+    </div>
+    <section class="all-notes">
+        <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        <div class="new-section">
+          <h4>Basic Navigation</h4>
+          <ul>
+            <li>
+              <input type="checkbox" id="pwd" name="pwd" checked />
+              <label for="pwd">pwd</label>
+              <span>(Where am I in the system.)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="ls" name="ls" />
+              <label for="ls">ls [path]</label>
+              <span>(Perform a listing of the given path or your current directory. Common options: -l, -h, -a)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="cd" name="cd" />
+              <label for="cd">cd [path]</label>
+              <span>(Change into the given path or into your home directory.)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="path" name="path" />
+              <label for="path">Path</label>
+              <span>(A description of where a file or directory is on the filesystem.)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="abs-path" name="abs-path" />
+              <label for="abs-path">Absolute Path</label>
+              <span>(One beginning from the root of the file system (eg. /etc/sysconfig ).)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="rel-path" name="rel-path" />
+              <label for="rel-path">Relative Path</label>
+              <span>(One relative to where you currently are in the system (eg. Documents/music ).)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="tilde" name="tilde" />
+              <label for="tilde">~ (tilde)</label>
+              <span>(Used in paths as a reference to your home directory (eg. ~/Documents ).)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="dot" name="dot" />
+              <label for="dot">. (dot)</label>
+              <span>(Used in paths as a reference to your current directory (eg. ./bin ).)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="dot-dot" name="dot-dot" />
+              <label for="dot-dot">            .. (dot dot)</label>
+              <span>(Used in paths as a reference to your current directory's parent directory (eg. ../bin ).)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="tab-completion" name="tab-completion" />
+              <label for="tab-completion">TAB completion</label>
+              <span>(Start typing and press TAB. The system will auto-complete the path. Press TAB twice and it will show you your alternatives.)</span>
+            </li>
+          </ul>
+        </div>
+        <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        <div class="new-section">
+          <h4>More About Files</h4>
+          <ul>
+            <li>
+              <input type="checkbox" id="file" name="file" />
+              <label for="file">file [path]</label>
+              <span>(Find out what type of item a file or directory is.)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="spaces-in-names" name="spaces-in-names" />
+              <label for="spaces-in-names">Spaces in names</label>
+              <span>(Put the whole path in quotes ("") or add a backslash (\) in front of spaces.)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="hidden-files" name="hidden-files" />
+              <label for="hidden-files">Hidden files and directories</label>
+              <span>(A name beginning with a . (dot) is considered hidden.)</span>
+            </li>
+          </ul>
+        </div>
+        <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        <div class="new-section">
+          <h4>Manual Pages</h4>
+          <ul>
+            <li>
+              <input type="checkbox" id="man" name="man" />
+              <label for="man">man &lt;command&gt;</label>
+              <span>(View the manual page for a command.)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="man-k" name="man-k" />
+              <label for="man-k">man -k &lt;search term&gt;</label>
+              <span>(Search for manual pages containing the search term.)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="man-exit" name="man-exit" />
+              <label for="man-exit">Press q to exit man pages</label>
+            </li>
+          </ul>
+        </div>
+        <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        <div class="new-section">
+          <h4>File Manipulation</h4>
+          <ul>
+            <li>
+              <input type="checkbox" id="mkdir" name="mkdir" />
+              <label for="mkdir">mkdir &lt;directory name&gt;</label>
+              <span>(Create a directory.)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="rmdir" name="rmdir" />
+              <label for="rmdir">rmdir &lt;directory name&gt;</label>
+              <span>(Remove a directory (only if empty).)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="touch" name="touch" />
+              <label for="touch">touch &lt;file name&gt;</label>
+              <span>(Create a blank file.)</span>
+            </li>
+            <li>
+                <input type="checkbox" id="cp" name="cp" />
+                <label for="cp">cp &lt;source&gt; &lt;destination&gt;</label>
+                <span>(Copy the source file to the destination.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="mv" name="mv" />
+                <label for="mv">mv &lt;source&gt; &lt;destination&gt;</label>
+                <span>(Move the source file to the destination. May also be used to rename files or directories.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="rm" name="rm" />
+                <label for="rm">rm &lt;path&gt;</label>
+                <span>(Remove a file or directory. Common options: -r -f)</span>
+              </li>
+            </ul>
+          </div>
+          <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+          <div class="new-section">
+            <h4>Permissions</h4>
+            <ul>
+              <li>
+                <input type="checkbox" id="permissions" name="permissions" />
+                <label for="permissions">r (read) w (write) x (execute)</label>
+              </li>
+              <li>
+                <input type="checkbox" id="owner-group-others" name="owner-group-others" />
+                <label for="owner-group-others">Owner or User, Group and Others</label>
+              </li>
+              <li>
+                <input type="checkbox" id="ls-l" name="ls-l" />
+                <label for="ls-l">ls -l [path]</label>
+                <span>(View the permissions of a file or all items in a directory.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="chmod" name="chmod" />
+                <label for="chmod">chmod &lt;permissions&gt; &lt;path&gt;</label>
+                <span>(Change permissions. Permissions can be either shorthand (e.g., 754) or longhand (e.g., g+x).)</span>
+              </li>
+            </ul>
+          </div>
+          <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+          <div class="new-section">
+            <h4>Filters</h4>
+            <ul>
+              <li>
+                <input type="checkbox" id="head" name="head" />
+                <label for="head">head</label>
+                <span>(Show the first n lines.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="tail" name="tail" />
+                <label for="tail">tail</label>
+                <span>(Show the last n lines.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="sort" name="sort" />
+                <label for="sort">sort</label>
+                <span>(Sort lines in a given way.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="wc" name="wc" />
+                <label for="wc">wc</label>
+                <span>(How many words, characters, and lines.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="grep" name="grep" />
+                <label for="grep">grep</label>
+                <span>(Search for a given pattern.)</span>
+                <ul>
+                  <li><a href="https://www.gnu.org/software/grep/manual/grep.html#Regular-Expressions" target="_blank" rel="noopener">See more on our Grep Cheat Sheet</a></li>
+                </ul>
+              </li>
+              <li>
+                <input type="checkbox" id="more-filters" name="more-filters" />
+                <label for="more-filters">More filters can be found <a href="https://www.tecmint.com/15-basic-grep-command-examples-in-linux/" target="_blank" rel="noopener">here</a></label>
+              </li>
+            </ul>
+          </div>
+          <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+          <div class="new-section">
+            <h4>Useful Commands</h4>
+            <ul>
+              <li>
+                <input type="checkbox" id="du-sh" name="du-sh" />
+                <label for="du-sh">du -sh ./*</label>
+                <span>(Find the size of every directory in your current directory.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="df-h" name="df-h" />
+                <label for="df-h">df -h</label>
+                <span>(Display how much disk space is used and also free.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="basename" name="basename" />
+                <label for="basename">basename -s .jpg -a *.jpg | xargs -n1 -i cp {}.jpg {}_original.jpg</label>
+                <span>(Make a copy of every jpg image file in the current directory and rename adding _original.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="find-mtime" name="find-mtime" />
+                <label for="find-mtime">find /home -mtime -1</label>
+                <span>(Find all files in the given directory (and subdirectories) which have been modified in the last 24 hours.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="shutdown" name="shutdown" />
+                <label for="shutdown">shutdown -h now</label>
+                <span>(Shutdown the system. Replace -h with -r for reboot.)</span>
+              </li>
+            </ul>
+          </div>
+          <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+          <div class="new-section">
+            <h4>Process Management</h4>
+            <ul>
+              <li>
+                <input type="checkbox" id="ctrl-c" name="ctrl-c" />
+                <label for="ctrl-c">CTRL + C</label>
+                <span>(Cancel the currently running process.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="kill" name="kill" />
+                <label for="kill">kill &lt;process id&gt;</label>
+                <span>(Cancel the given process. Include the option -9 to kill a stubborn process.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="ps" name="ps" />
+                <label for="ps">ps</label>
+                <span>(Obtain a listing of processes and their ids. Including the option aux will show all processes.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="ctrl-z" name="ctrl-z" />
+                <label for="ctrl-z">CTRL + Z</label>
+                <span>(Pause the currently running process and put it in the background.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="jobs" name="jobs" />
+                <label for="jobs">jobs</label>
+                <span>(See a list of current processes in the background.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="fg" name="fg" />
+                <label for="fg">fg &lt;job number&gt;</label>
+                <span>(Move the given process from the background to the foreground.)</span>
+              </li>
+            </ul>
+          </div>
+          <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+          <div class="new-section">
+            <h4>Basic Usage</h4>
+            <ul>
+              <li>
+                <input type="checkbox" id="vim" name="vim" />
+                <label for="vim">vim or vi</label>
+                <span>(Run vim and open the given filename.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="save" name="save" />
+                <label for="save">:w</label>
+                <span>(Save file.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="save-exit" name="save-exit" />
+                <label for="save-exit">:x or SHIFT ZZ</label>
+                <span>(Save and exit.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="exit" name="exit" />
+                <label for="exit">:q</label>
+                <span>(Exit if no changes have been made.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="exit-undo" name="exit-undo" />
+                <label for="exit-undo">:q!</label>
+                <span>(Exit and undo any changes made.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="line-numbers" name="line-numbers" />
+                <label for="line-numbers">:set nu</label>
+                <span>(Display line numbers.)</span>
+              </li>
+            </ul>
+          </div>
+          <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+          <div class="new-section">
+            <h4>Deleting</h4>
+            <ul>
+              <li>
+                <input type="checkbox" id="delete-char" name="delete-char" />
+                <label for="delete-char">x</label>
+                <span>(Delete a single character.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="delete-rest-line" name="delete-rest-line" />
+                <label for="delete-rest-line">D</label>
+                <span>(Delete the rest of the line.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="delete-line" name="delete-line" />
+                <label for="delete-line">dd</label>
+                <span>(Delete the entire current line.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="delete-next-words" name="delete-next-words" />
+                <label for="delete-next-words">ndw</label>
+                <span>(Delete the next n words.)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="delete-next-lines" name="delete-next-lines" />
+              <label for="delete-next-lines">ndd</label>
+              <span>(Delete the next n lines.)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="delete-range-lines" name="delete-range-lines" />
+              <label for="delete-range-lines">:x,yd</label>
+              <span>(Delete from line x through line y.)</span>
+            </li>
+          </ul>
+        </div>
+        <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        <div class="new-section">
+          <h4>Entering Insert mode</h4>
+          <ul>
+            <li>
+              <input type="checkbox" id="insert-cursor" name="insert-cursor" />
+              <label for="insert-cursor">i</label>
+              <span>(At the cursor.)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="insert-after" name="insert-after" />
+              <label for="insert-after">a</label>
+              <span>(After the cursor.)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="insert-beginning-line" name="insert-beginning-line" />
+              <label for="insert-beginning-line">I</label>
+              <span>(Before the current line.)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="insert-end-line" name="insert-end-line" />
+              <label for="insert-end-line">A</label>
+              <span>(After the current line.)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="insert-new-line-after" name="insert-new-line-after" />
+              <label for="insert-new-line-after">o</label>
+              <span>(Insert a new line after the current line.)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="insert-new-line-before" name="insert-new-line-before" />
+              <label for="insert-new-line-before">O</label>
+              <span>(Insert a new line before the current line.)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="overwrite-line" name="overwrite-line" />
+              <label for="overwrite-line">C</label>
+              <span>(Overwrite the whole current line.)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="exit-insert" name="exit-insert" />
+              <label for="exit-insert">ESC</label>
+              <span>(Exit Insert mode.)</span>
+            </li>
+          </ul>
+        </div>
+        <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        <div class="new-section">
+          <h4>Movement</h4>
+          <ul>
+            <li>
+              <input type="checkbox" id="move-left" name="move-left" />
+              <label for="move-left">h</label>
+              <span>(Move left one character.)</span>
+            </li>
+            <li>
+              <input type="checkbox" id="move-down" name="move-down" />
+              <label for="move-down">j</label>
+              <span>(Move down one character.)</span>
+            </li>
+            <li>
+                <input type="checkbox" id="move-up" name="move-up" />
+                <label for="move-up">k</label>
+                <span>(Move up one character.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="move-right" name="move-right" />
+                <label for="move-right">l</label>
+                <span>(Move right one character.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="move-forward-word" name="move-forward-word" />
+                <label for="move-forward-word">w</label>
+                <span>(Move forward one word.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="move-start-word" name="move-start-word" />
+                <label for="move-start-word">b</label>
+                <span>(Move to the start of the word.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="move-end-word" name="move-end-word" />
+                <label for="move-end-word">e</label>
+                <span>(Move to the end of the word.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="move-back-sentence" name="move-back-sentence" />
+                <label for="move-back-sentence">(</label>
+                <span>(Move back one sentence.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="move-forward-sentence" name="move-forward-sentence" />
+                <label for="move-forward-sentence">)</label>
+                <span>(Move forward one sentence.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="move-back-paragraph" name="move-back-paragraph" />
+                <label for="move-back-paragraph">{</label>
+                <span>(Move back one paragraph.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="move-forward-paragraph" name="move-forward-paragraph" />
+                <label for="move-forward-paragraph">}</label>
+                <span>(Move forward one paragraph.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="move-beginning-line" name="move-beginning-line" />
+                <label for="move-beginning-line">^</label>
+                <span>(Move to the beginning of the line.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="move-end-line" name="move-end-line" />
+                <label for="move-end-line">$</label>
+                <span>(Move to the end of the line.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="move-to-line" name="move-to-line" />
+                <label for="move-to-line">&lt;n&gt;G</label>
+                <span>(Move to the nth line.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="move-last-line" name="move-last-line" />
+                <label for="move-last-line">G</label>
+                <span>(Move to the last line.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="move-first-line" name="move-first-line" />
+                <label for="move-first-line">gg</label>
+                <span>(Move to the first line.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="move-matching-bracket" name="move-matching-bracket" />
+                <label for="move-matching-bracket">%</label>
+                <span>(Move to the matching bracket.)</span>
+              </li>
+            </ul>
+          </div>
+          <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+          <div class="new-section">
+            <h4>Search and Replace</h4>
+            <ul>
+              <li>
+                <input type="checkbox" id="search-pattern" name="search-pattern" />
+                <label for="search-pattern">/pattern</label>
+                <span>(Search for pattern.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="search-next-occurrence" name="search-next-occurrence" />
+                <label for="search-next-occurrence">n</label>
+                <span>(Find the next occurrence of pattern.)</span>
+              </li>
+              <li>
+                <input type="checkbox" id="replace-pattern" name="replace-pattern" />
+                <label for="replace-pattern">:%s/pattern/replace/g</label>
+                <span>(Replace every occurrence of pattern with replace.)</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+    </body>
+    </html>
+          
+        
+      
+      

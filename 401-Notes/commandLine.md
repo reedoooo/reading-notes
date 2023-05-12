@@ -375,3 +375,14 @@ Common options: -l, -h, -a)
 ### y$
 
 - [ ] Yank to the end of the line.
+
+## Additional Notes
+
+- There are two types of paths **absolute** and **relative**. 
+- **Absolute** paths specify a location (file or directory) in relation to the root directory. You can identify them easily as they always begin with a forward slash ( / )
+- **Relative** paths specify a location (file or directory) in relation to where we currently are in the system. They will not begin with a slash.
+- Everything is a file under linux.
+- Linux is extentionless: Files can have any extension they like or none at all.
+- Linux is case-sensitive.
+- Remember you can easily look stuff up in the man pages. **Man (command)**, **man-k (search term)** Do a keyword search for all manual pages containing the given search term.
+- Most commands have many useful command line options. Make sure you skim the man page for new commands so you are familiar with what they can do and what is available.

@@ -34,7 +34,7 @@ Below is a directory that leads to my notes.
 
 ## **Code 301 Reading Notes**
 
-### **Pre Work**
+### **301 Pre Work**
 
 - [Day 1: Introduction to React and Components](https://reedoooo.github.io/reading-notes/301-Notes/notes1.html)
 
@@ -60,6 +60,93 @@ Below is a directory that leads to my notes.
 - [Day 13: More CRUD](https://reedoooo.github.io/reading-notes/301-Notes/notes13.html)
 - [Day 14: TBD](https://reedoooo.github.io/reading-notes/301-Notes/notes14.html)
 - [Day 15: Authentication](https://reedoooo.github.io/reading-notes/301-Notes/notes15.html)
+
+## **Code 401 Reading Notes**
+
+### **401 Pre Work**
+
+- [Day 0a: Prep your Mindset](https://reedoooo.github.io/reading-notes/401-Notes/notes0a.html)
+- [Day 0b: Practice in the Terminal](https://reedoooo.github.io/reading-notes/401-Notes/notes0b.html)
+
+### **Module 1**
+
+- [Day 1: Intro to NodeJS](https://reedoooo.github.io/reading-notes/401-Notes/notes01.html)
+- [Day 2: Modules and Testing](https://reedoooo.github.io/reading-notes/401-Notes/notes02.html)
+- [Day 3: Express Web Servers](https://reedoooo.github.io/reading-notes/401-Notes/notes03.html)
+- [Day 4: REST API](https://reedoooo.github.io/reading-notes/401-Notes/notes04.html)
+- [Day 5: Linked Lists, Big O, Resume Workshop](https://reedoooo.github.io/reading-notes/401-Notes/notes05.html)
+
+### **Module 2**
+
+- [Day 6: Basic Authentication](https://reedoooo.github.io/reading-notes/401-Notes/notes06.html)
+- [Day 7: Bearer Authentication](https://reedoooo.github.io/reading-notes/401-Notes/notes07.html)
+- [Day 8: Role Based Access Control](https://reedoooo.github.io/reading-notes/401-Notes/notes08.html)
+- [Day 9: Guided Project](https://reedoooo.github.io/reading-notes/401-Notes/notes09.html)
+- [Day 10: Stacks, Queues, Personal Pitch Workshop](https://reedoooo.github.io/reading-notes/401-Notes/notes10.html)
+
+### **Module 3**
+
+- [Day 11: Event Driven Programming](https://reedoooo.github.io/reading-notes/401-Notes/notes11.html)
+- [Day 12: Network Events](https://reedoooo.github.io/reading-notes/401-Notes/notes12.html)
+- [Day 13: Message Queues](https://reedoooo.github.io/reading-notes/401-Notes/notes13.html)
+- [Day 14: Guided Project](https://reedoooo.github.io/reading-notes/401-Notes/notes14.html)
+- [Day 15: Trees, Job Search Workshop](https://reedoooo.github.io/reading-notes/401-Notes/notes15.html)
+
+### **Module 4**
+
+- [Day 16: AWS: EC2 and Elastic Beanstalk](https://reedoooo.github.io/reading-notes/401-Notes/notes16.html)
+- [Day 17: AWS: S3 and Lambda](https://reedoooo.github.io/reading-notes/401-Notes/notes17.html)
+- [Day 18: AWS: APIs and Dynamo DB](https://reedoooo.github.io/reading-notes/401-Notes/notes18.html)
+- [Day 19: AWS: Message Queues and Notifications](https://reedoooo.github.io/reading-notes/401-Notes/notes19.html)
+- [Day 20: Project Kickoffs](https://reedoooo.github.io/reading-notes/401-Notes/notes20.html)
+
+### **Module 5 - Midterm Project**
+
+- [Day 21: Wireframes, User Stories, Architecture Plan, DevOps, Documentation, Agreements](https://reedoooo.github.io/reading-notes/401-Notes/notes21.html)
+- [Day 22: Phase 1](https://reedoooo.github.io/reading-notes/401-Notes/notes22.html)
+- [Day 23: MVP](https://reedoooo.github.io/reading-notes/401-Notes/notes23.html)
+- [Day 24: Final Polish, Presentation Practice](https://reedoooo.github.io/reading-notes/401-Notes/notes24.html)
+- [Day 25: Live Project Presentations](https://reedoooo.github.io/reading-notes/401-Notes/notes25.html)
+
+### **Module 6**
+
+- [Day 26: React - Function Components](https://reedoooo.github.io/reading-notes/401-Notes/notes26.html)
+- [Day 27: React - State Hook](https://reedoooo.github.io/reading-notes/401-Notes/notes27.html)
+- [Day 28: React - Effect Hook and Lifecycle](https://reedoooo.github.io/reading-notes/401-Notes/notes28.html)
+- [Day 29: React - Reducer Hook](https://reedoooo.github.io/reading-notes/401-Notes/notes29.html)
+- [Day 30: Hash Tables, Behavioral Interview Workshop](https://reedoooo.github.io/reading-notes/401-Notes/notes30.html)
+
+### **Module 7**
+
+- [Day 31: React - Context API](https://reedoooo.github.io/reading-notes/401-Notes/notes31.html)
+- [Day 32: React - Context API](https://reedoooo.github.io/reading-notes/401-Notes/notes32.html)
+- [Day 33: React - Cookies, Local Storage Login and Auth components](https://reedoooo.github.io/reading-notes/401-Notes/notes33.html)
+- [Day 34: React - RBAC](https://reedoooo.github.io/reading-notes/401-Notes/notes34.html)
+- [Day 35: Graphs, Technical Interview Workshop](https://reedoooo.github.io/reading-notes/401-Notes/notes35.html)
+
+### **Module 8**
+
+- [Day 36: React - Redux Reducers, Actions, and State](https://reedoooo.github.io/reading-notes/401-Notes/notes36.html)
+- [Day 37: Redux - Combined Reducers](https://reedoooo.github.io/reading-notes/401-Notes/notes37.html)
+- [Day 38: Redux - Asynchronous Actions](https://reedoooo.github.io/reading-notes/401-Notes/notes38.html)
+- [Day 39: Redux - Alternatives and Advanced Usage](https://reedoooo.github.io/reading-notes/401-Notes/notes39.html)
+- [Day 40: Personal Presentation](https://reedoooo.github.io/reading-notes/401-Notes/notes40.html)
+
+### **Module 9**
+
+- [Day 41: React Native](https://reedoooo.github.io/reading-notes/401-Notes/notes41.html)
+- [Day 42: React Native](https://reedoooo.github.io/reading-notes/401-Notes/notes42.html)
+- [Day 43: Open Source](https://reedoooo.github.io/reading-notes/401-Notes/notes43.html)
+- [Day 44: Ethics](https://reedoooo.github.io/reading-notes/401-Notes/notes44.html)
+- [Day 45: Project Kickoffs](https://reedoooo.github.io/reading-notes/401-Notes/notes45.html)
+
+### **Module 10 - Capstone Project**
+
+- [Day 46: Wireframes, User Stories, Architecture Plan, DevOps, Documentation, Agreements](https://reedoooo.github.io/reading-notes/401-Notes/notes46.html)
+- [Day 47: Phase 1](https://reedoooo.github.io/reading-notes/401-Notes/notes47.html)
+- [Day 48: MVP](https://reedoooo.github.io/reading-notes/401-Notes/notes48.html)
+- [Day 49: Final Polish, Presentation Practice](https://reedoooo.github.io/reading-notes/401-Notes/notes49.html)
+- [Day 50: Live Project Presentations](https://reedoooo.github.io/reading-notes/401-Notes/notes50.html)
 
 ## Archives
 
