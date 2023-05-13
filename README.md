@@ -67,6 +67,7 @@ Below is a directory that leads to my notes.
 
 - [Day 0a: Prep your Mindset](https://reedoooo.github.io/reading-notes/401-Notes/notes0a.html)
 - [Day 0b: Practice in the Terminal](https://reedoooo.github.io/reading-notes/401-Notes/notes0b.html)
+- [Day 0c: SQL Practice](https://reedoooo.github.io/reading-notes/401-Notes/notes0c.html)
 
 ### **Module 1**
 
