@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coding Terms Notes</title>
+    <style>
+      /* CSS Styling */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f0f0f0;
+      }
+
+      h1 {
+        color: #333;
+        text-align: center;
+      }
+
+      .term-container {
+        margin-top: 30px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 20px;
+      }
+
+      .term-title {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .term-definition {
+        color: #666;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      .code {
+        font-family: Consolas, monospace;
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Coding Terms Notes</h1>
+
+    <div class="term-container">
+      <h2 class="term-title">Recursion</h2>
+      <p class="term-definition">
+        Recursion is a programming concept where a function calls itself
+        repeatedly until it reaches a specific condition, known as the base
+        case. It is a way of solving problems by breaking them down into
+        smaller, similar subproblems and solving them in a recursive manner.
+      </p>
+      <p class="term-definition">
+        When a function encounters a recursive call, it essentially pauses its
+        execution and starts executing a new instance of the same function. This
+        process continues until the base case is reached, at which point the
+        function starts returning values to the previous instances in the call
+        stack, allowing them to continue their execution.
+      </p>
+      <p class="term-definition">
+        Recursion can be a powerful technique for solving problems that can be
+        divided into similar subproblems. However, it's important to ensure that
+        recursive functions have a well-defined base case and that the recursive
+        calls progress towards reaching the base case. Otherwise, the recursion
+        may lead to infinite loops or excessive memory usage.
+      </p>
+
+      <h3>Example</h3>
+      <p class="term-definition">
+        Let's consider an example of calculating the factorial of a number using
+        recursion:
+      </p>
+      <pre class="code">
+function factorial(n) {
+  if (n === 0) {
+    return 1;
+  } else {
+    return n * factorial(n - 1);
+  }
+}
+
+console.log(factorial(5)); // Output: 120
+    </pre
+      >
+      <p class="term-definition">
+        In this example, the <code>factorial</code> function calculates the
+        factorial of a given number. It uses recursion by calling itself with a
+        smaller number until it reaches the base case when <code>n</code> is 0.
+        The result is obtained by multiplying <code>n</code> with the factorial
+        of <code>n - 1</code>.
+      </p>
+    </div>
+  </body>
+</html>
