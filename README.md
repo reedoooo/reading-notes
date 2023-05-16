@@ -40,7 +40,7 @@ Below is a directory that leads to my notes.
 
 ### **Week One: React**
 
-- [Day 2: State and Props](https://reedoooo.github.io/reading-notes/301-Notes/notes2.html)
+- [Day 2: Readings: Express, NPM, TDD, CI/CD](https://reedoooo.github.io/reading-notes/301-Notes/notes2.html)
 - [Day 3: Passing Functions as Props](https://reedoooo.github.io/reading-notes/301-Notes/notes3.html)
 - [Day 4: React and Forms](https://reedoooo.github.io/reading-notes/301-Notes/notes4.html)
 - [Day 5: Putting it all together](https://reedoooo.github.io/reading-notes/301-Notes/notes5.html)
@@ -69,6 +69,7 @@ Below is a directory that leads to my notes.
 - [Day 0b: Practice in the Terminal](https://reedoooo.github.io/reading-notes/401-Notes/notes0b.html)
 - [Day 0c: SQL Practice](https://reedoooo.github.io/reading-notes/401-Notes/notes0c.html)
 - [Day 0d: Data Structures and Algorithms](https://reedoooo.github.io/reading-notes/401-Notes/notes0d.html)
+- [Day 0e: Engineering Readings](https://reedoooo.github.io/reading-notes/401-Notes/notes0e.html)
 
 ### **Module 1**
 

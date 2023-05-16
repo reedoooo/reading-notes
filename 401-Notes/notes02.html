@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Readings: Express, NPM, TDD, CI/CD</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* CSS Styling */
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Express, NPM, TDD, CI/CD</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Readings</h2>
+        <ul>
+          <li>
+            <h3>An introduction to NodeJS and Express</h3>
+            <ul>
+              <li>
+                <strong
+                  >Explain middleware, answer as though I were a non-technical
+                  recruiter.</strong
+                >
+                <p>
+                  Middleware in web development acts as a bridge between the
+                  client and server. It performs various tasks like
+                  authentication, logging, error handling, and more. It's like a
+                  relay race where each runner (middleware) handles specific
+                  actions before passing the request to the next runner or the
+                  server. It ensures smooth communication and enhances the
+                  functionality of web applications.
+                </p>
+              </li>
+              <li>
+                <strong>Express the most popular ____ ____.</strong>
+                <p>Express is the most popular Node.js framework.</p>
+              </li>
+              <li>
+                <strong
+                  >Express is "unopinionated." What does that mean?</strong
+                >
+                <p>
+                  Express being "unopinionated" means it doesn't enforce
+                  specific patterns or structures on developers. It allows
+                  freedom in organizing code, choosing architectural approaches,
+                  and integrating additional tools or libraries. Developers have
+                  the flexibility to build applications according to their
+                  preferences and needs.
+                </p>
+              </li>
+              <li>
+                <strong
+                  >What is a module, and why is modularity useful to us as
+                  developers?</strong
+                >
+                <p>
+                  A module is a self-contained unit of code that encapsulates
+                  related functionality. Modularity is valuable for developers
+                  as it promotes code organization and reusability. Breaking
+                  down complex systems into smaller, manageable modules improves
+                  code maintainability, readability, and testability. Modules
+                  can be easily reused across projects, enhancing development
+                  efficiency.
+                </p>
+              </li>
+              <li>
+                <strong>What is NPM?</strong>
+                <p>
+                  NPM (Node Package Manager) is a package manager for Node.js.
+                  It allows developers to discover, install, and manage
+                  dependencies (third-party libraries and packages) for their
+                  Node.js projects. NPM provides a vast ecosystem of open-source
+                  packages that can be easily integrated into applications,
+                  saving time and effort in developing common functionality from
+                  scratch.
+                </p>
+              </li>
+              <li>
+                <strong
+                  >What version of npm are you running on your machine?</strong
+                >
+                <p>
+                  To check the version of npm installed on your machine, open a
+                  terminal or command prompt and type the following command:<br />
+                  <code>npm -v</code><br />
+                  The version number will be displayed in the output.
+                </p>
+              </li>
+              <li>
+                <strong
+                  >What command would you type to install a library/package
+                  called 'jshint' into your Node project?</strong
+                >
+                <p>
+                  To install the 'j shint' library/package into your Node
+                  project, you would type the following command in the terminal
+                  or command prompt:<br />
+                  <code>npm install jshint</code><br />
+                  This command instructs npm to download and install the
+                  'jshint' package and its dependencies into your project's
+                  <code>node_modules</code> directory.
+                </p>
+              </li>
+              <li>
+                <strong>What is TDD?</strong>
+                <p>
+                  TDD (Test-Driven Development) is a software development
+                  approach where tests are written before the actual code
+                  implementation. It follows the process of writing a failing
+                  test, writing the code to make the test pass, and then
+                  refactoring the code. TDD helps ensure that the code meets the
+                  specified requirements and provides a safety net for future
+                  changes or additions.
+                </p>
+              </li>
+              <li>
+                <strong
+                  >Explain why tests are important. Please explain as though I
+                  were your non-technical elder.</strong
+                >
+                <p>
+                  Tests are essential because they help ensure the quality and
+                  correctness of software applications. Imagine you're building
+                  a house. Tests are like regular inspections that ensure the
+                  foundation is solid, the walls are sturdy, and everything
+                  works as expected. They catch potential issues early,
+                  preventing costly mistakes and ensuring the final product is
+                  reliable and meets the desired requirements. Tests provide
+                  peace of mind and confidence in the software's functionality.
+                </p>
+              </li>
+              <li>
+                <strong>What are three expected benefits of testing?</strong>
+                <ul>
+                  <li>1. Increased software quality and reliability</li>
+                  <li>2. Early bug detection and prevention</li>
+                  <li>3. Improved maintainability and ease of code changes</li>
+                </ul>
+              </li>
+              <li>
+                <strong
+                  >Name at least 2 individual pitfalls and at least 2 team
+                  pitfalls commonly encountered while writing tests.</strong
+                >
+                <ul>
+                  <li>
+                    Individual pitfalls:
+                    <ul>
+                      <li>
+                        a. Overemphasizing code coverage without focusing on
+                        meaningful tests
+                      </li>
+                      <li>
+                        b. Writing tests that are too specific to the
+                        implementation details, leading to fragile tests
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    Team pitfalls:
+                    <ul>
+                      <li>
+                        a. Lack of collaboration and communication in defining
+                        test requirements and strategies
+                      </li>
+                      <li>
+                        b. Inconsistent or insufficient testing practices across
+                        team members, leading to a fragmented test suite
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong
+                  >What are three benefits of Continuous Integration?</strong
+                >
+                <ul>
+                  <li>
+                    1. Early detection of integration issues and conflicts
+                  </li>
+                  <li>2. Faster feedback loop for developers</li>
+                  <li>
+                    3. Continuous improvement in code quality and stability
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong
+                  >What is the difference between Continuous Delivery and
+                  Continuous Deployment?</strong
+                >
+                <p>
+                  Continuous Delivery (CD) is the practice of ensuring that
+                  software can be released to production at any time. It focuses
+                  on automating the delivery process, including testing,
+                  building, and packaging, to enable frequent and reliable
+                  deployments. Continuous Deployment (CD) takes it a step
+                  further and automatically deploys the software to production
+                  as soon as it passes the necessary tests and quality checks.
+                </p>
+              </li>
+              <li>
+                <strong
+                  >Explain how GitHub fits into this process assuming the
+                  listener comes from a non-technical background.</strong
+                >
+                <p>
+                  GitHub is a platform that facilitates collaboration and
+                  version control for software projects. In the context of
+                  Continuous Integration and Continuous Deployment, GitHub acts
+                  as a central repository where developers can store and manage
+                  their code. It allows multiple developers to work on the same
+                  project simultaneously, keeping track of changes and enabling
+                  seamless collaboration. Additionally, GitHub integrates with
+                  various CI/CD tools, enabling automated testing, building, and
+                  deployment processes based on the code changes made in the
+                  repository.
+                </p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Bookmark and Review</h2>
+        <ul>
+          <li><a href="https://nodejs.org/api/">nodeJS docs</a></li>
+          <li><a href="https://docs.npmjs.com/">npm docs</a></li>
+          <li><a href="https://expressjs.com/">express docs</a></li>
+          <li><a href="https://httpstatuses.com/">http status codes</a></li>
+          <li>
+            <a href="https://www.npmjs.com/package/supertest">supertest</a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Reflection</h2>
+        <p>
+          What are your learning goals after reading and reviewing the class
+          README?
+        </p>
+        <p>
+          After reading and reviewing the class README, my learning goals are to
+          gain a solid understanding of Node.js, Express, and their usage in
+          building web applications. I aim to learn about middleware,
+          modularity, and the role of NPM in managing dependencies.
+          Additionally, I want to grasp the concepts of Test-Driven Development
+          (TDD) and the benefits it brings to software development. Finally, I
+          seek to comprehend Continuous Integration (CI) and its importance in
+          ensuring code quality and efficient collaboration within a development
+          team.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
