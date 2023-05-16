@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Express REST API Readings</title>
+
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Custom styles for the notes section */
+      .new-section {
+        margin-top: 2rem;
+      }
+
+      .new-section h4 {
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+
+      .new-section ul {
+        list-style-type: disc;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+      }
+
+      .new-section ul li {
+        margin-top: 0.5rem;
+      }
+
+      .sub {
+        list-style-type: circle;
+      }
+
+      .sub2 {
+        list-style-type: square;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="header-div">
+        <h1>Express REST API Readings</h1>
+      </div>
+    </header>
+    <main>
+      <div id="second-heading">
+        <h2>Class 3: Express REST API Readings</h2>
+        <div class="date">February 16, 2023</div>
+      </div>
+      <section class="all-notes">
+        <!-- NOTES SECTION DIVIDER -->
+        <div class="new-section">
+          <h4>Review: ES6 Classes</h4>
+          <ul>
+            <li>Classes are a template for creating objects.</li>
+            <li>A class declaration cannot be hoisted.</li>
+            <li>
+              A constructor is a special method within a class used to
+              initialize objects. It is called automatically when a new object
+              is created. The contextual "this" refers to the current object
+              instance.
+            </li>
+          </ul>
+        </div>
+        <!-- NOTES SECTION DIVIDER -->
+        <div class="new-section">
+          <h4>Using Express Routing</h4>
+          <ul>
+            <li>
+              Within Express, routing refers to the process of determining how
+              an application responds to a client request to a particular URL
+              and HTTP method.
+            </li>
+            <li>
+              A route path in Express defines the URL pattern to match against
+              incoming requests.
+            </li>
+            <li>
+              A route method in Express specifies the HTTP method that the route
+              will respond to.
+            </li>
+            <li>
+              It is appropriate to add "next" as a parameter to a route handler
+              when you want to pass control to the next middleware or route
+              handler function.
+            </li>
+          </ul>
+        </div>
+        <!-- NOTES SECTION DIVIDER -->
+        <div class="new-section">
+          <h4>Express Routing</h4>
+          <ul>
+            <li>
+              An Express Router is a mini express application that provides a
+              modular way to handle routes.
+            </li>
+            <li>
+              We initialize an "express.Router()" in an express server by
+              creating a new instance of the router using the "express.Router()"
+              function.
+            </li>
+            <li>
+              Route middleware in Express is used to perform operations on the
+              request and response objects or to add additional functionality
+              before passing control to the next middleware or route handler.
+            </li>
+          </ul>
+        </div>
+        <!-- NOTES SECTION DIVIDER -->
+        <div class="new-section">
+          <h4>Reflection</h4>
+          <ul>
+            <li>
+              Learning goals after reading and reviewing the class README:
+              <ul>
+                <li>
+                  To understand the concept of classes in JavaScript and their
+                  role in object-oriented programming.
+                </li>
+                <li>
+                  To grasp the usage of constructors and how they initialize
+                  objects.
+                </li>
+                <li>
+                  To comprehend the purpose and usage of Express routing and how
+                  to define route paths and methods.
+                </li>
+                <li>
+                  To learn how to use "next" as a parameter in route handlers
+                  and understand its role in middleware execution.
+                </li>
+                <li>
+                  To explore the benefits and usage of Express Router for
+                  modular route handling.
+                </li>
+                <li>
+                  To understand the role of route middleware and how it can
+                  enhance the functionality of an Express application.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- NOTES SECTION DIVIDER -->
+      </section>
+    </main>
+  </body>
+</html>
