@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Reading: NoSQL vs SQL</title>
+    
+        <link rel="stylesheet" href="./reset.css" />
+        <link rel="stylesheet" href="./style.css" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+          rel="stylesheet"
+        />
+        <style>
+            /* Custom styles for the notes section */
+            .new-section {
+              margin-top: 2rem;
+            }
+      
+            .new-section h4 {
+              font-size: 1.2rem;
+              font-weight: bold;
+            }
+      
+            .new-section ul {
+              list-style-type: disc;
+              margin-left: 2rem;
+              margin-bottom: 1rem;
+            }
+      
+            .new-section ul li {
+              margin-top: 0.5rem;
+            }
+      
+            .sub {
+              list-style-type: circle;
+            }
+      
+            .sub2 {
+              list-style-type: square;
+            }
+          </style>
+</head>
+    <section class="all-notes">
+        <!-- NOTES SECTION DIVIDER -->
+        <body>
+            <header>
+              <h1>Reading: NoSQL vs SQL</h1>
+            </header>
+        <div class="new-section">
+            <ul>
+                <li>The best fit for a complex query intensive environment is a SQL database.</li>
+                <li>The best fit for hierarchical data storage is a NoSQL database.</li>
+                <li>Differences in scalability between a SQL and NoSQL database:
+                    <ul>
+                        <li>SQL databases require vertical or horizontal scaling, while NoSQL databases are designed
+                            for horizontal scalability from the beginning.</li>
+                        <li>Scaling a SQL database can be more challenging and may require complex techniques like
+                            sharding or partitioning.</li>
+                        <li>NoSQL databases can easily distribute data across multiple servers, allowing for seamless
+                            scaling by adding more servers to the cluster.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- NOTES SECTION DIVIDER -->
+        <div class="new-section">
+            <h4>SQL Modeling Techniques</h4>
+            <ul>
+                <li>A one-to-many relationship in data tables represents a relationship where one record in a table
+                    is associated with multiple records in another table. We relate them by using a foreign key in
+                    the "many" table that references the primary key of the corresponding record in the "one"
+                    table.</li>
+                <li>Prior to designing a relational database, it might be useful to create a visual diagram, such as
+                    an entity-relationship diagram (ERD), of the database tables and their relationships.</li>
+                <li>A primary key is a unique identifier for each record in a table, while a foreign key is a field in
+                    a table that refers to the primary key of another table. Primary keys ensure data integrity and
+                    uniqueness, while foreign keys establish relationships between tables.</li>
+            </ul>
+        </div>
+        <!-- NOTES SECTION DIVIDER -->
+        <div class="new-section">
+            <h4>Videos: SQL vs NoSQL</h4>
+           
+            <ul>
+                <li>In SQL syntax, keywords are reserved words used for specific operations, while parameters are
+                    values passed into SQL statements at runtime.</li>
+                <li>Normalization, within the context of schemas and data, refers to the process of organizing data
+                    in a database to reduce redundancy and dependency.</li>
+                <li>One-to-one relationship: Each record in one table is associated with exactly one record in
+                    another table.
+                </li>
+                <li>One-to-many relationship: Each record in one table is associated with multiple records in another
+                    table.</li>
+                <li>Many-to-many relationship: Multiple records in one table are associated with multiple records in
+                    another table, requiring a junction table to represent the relationship.</li>
+            </ul>
+        </div>
+        <!-- NOTES SECTION DIVIDER -->
+        <div class="new-section">
+            <h4>Bookmark and Review: Sequelize API</h4>
+            <ul>
+                <li>After reading and reviewing the class README, my learning goals are:
+                    <ul>
+                        <li>To understand the differences between SQL and NoSQL databases and their suitability for
+                            different scenarios.</li>
+                        <li>To learn about one-to-many relationships in database modeling and how to establish them
+                            using foreign keys.</li>
+                        <li>To grasp the importance of visualizing database structures using entity-relationship
+                            diagrams.</li>
+                        <li>To comprehend the role of primary keys and foreign keys in maintaining data integrity.
+                        </li>
+                        <li>To understand the distinction between keywords and parameters in SQL syntax.</li>
+                        <li>To gain a clear understanding of normalization and its significance in database design.
+                        </li>
+                        <li>To be able to explain the different types of relationships (one-to-one, one-to-many,
+                            many-to-many) to non-technical individuals, such as recruiters.</li>
+                        <li>To explore the Sequelize API and its capabilities for working with SQL databases in
+                            JavaScript applications.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- NOTES SECTION DIVIDER -->
+    </section>
+</main>
+</body>
+</html>

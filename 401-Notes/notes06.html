@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Readings: Authentication</title>
+
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <div id="header-div">
+      <h1>Readings: Authentication</h1>
+    </div>
+  </header>
+  <main>
+    <div id="second-heading">
+      <h2>Class 6: Authentication</h2>
+      <div class="date">February 16, 2023</div>
+    </div>
+
+    <section class="all-notes">
+      <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+      <div class="new-section">
+        <h4>Sub</h4>
+        <ul>
+          <li>
+            <h2>Explain to a non-technical friend how you would safely hash and store a password.</h2>
+            <p>
+              To safely hash and store a password, you would use a strong hashing algorithm like bcrypt. The password is passed through the bcrypt algorithm, which converts it into a hashed value. The hashing process is one-way, ensuring that the original password cannot be derived from the hashed value. This adds an extra layer of security to protect the passwords even if they are accessed by unauthorized individuals.
+            </p>
+            <p>
+              The hashed password is then stored in a secure database. It is important to ensure that the database itself has proper security measures in place, such as encryption for data at rest and in transit, access controls, and regular updates to address any security vulnerabilities.
+            </p>
+          </li>
+          <li>
+            <h2>What is Bcrypt? Why might you use something like Bcrypt?</h2>
+            <p>
+              Bcrypt is a password-hashing function that is specifically designed to be slow and computationally expensive. It incorporates salting, which adds a random value to each password before hashing, enhancing its security.
+            </p>
+            <p>
+              Bcrypt is used for securely storing passwords in a hashed format. It is preferred over traditional hashing algorithms because it is resistant to brute-force and dictionary attacks. Its slowness makes it computationally expensive for attackers, significantly increasing the time and resources required to crack the hashed passwords.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+      <div class="new-section">
+        <h4>Sub</h4>
+        <ul>
+          <li>
+            <h2>What is Basic Authentication? What properties are necessary in the header of a Basic Auth request? How are username:password in Basic Auth encoded?</h2>
+            <p>
+              Basic Authentication is a simple authentication mechanism used in HTTP. It involves sending the username and password in the HTTP headers of the request to authenticate the user.
+            </p>
+            <p>
+              The header properties necessary for a Basic Auth request are as follows:
+              <ul>
+                <li><strong>Authorization</strong>: This property indicates the authentication type and includes the username and password.</li>
+                <li><strong>Authentication type</strong>: It should be set to "Basic" to indicate that Basic Authentication is being used.</li>
+                <li><strong>Base64 encoded username:password</strong>: The username and password are combined with a colon (":") and then base64 encoded before being included in the Authorization header.</li>
+            </ul>
+            </p>
+            </li>
+            <li>
+            <h2>Define the authentication process to a non-technical recruiter. How should your error messaging respond (both HTTP and HTML)? Why?</h2>
+            <p>
+            Authentication is the process of verifying the identity of a user. It involves the user providing their credentials, such as a username and password. The server checks if the credentials are valid. If they are correct, access is granted, allowing the user to proceed. If the credentials are incorrect, access is denied, and the user is prompted to provide valid credentials.
+            </p>
+            <p>
+            Error messaging should be clear and informative to guide the user in case of authentication failures. This applies to both HTTP responses and HTML content. HTTP status codes, such as 401 Unauthorized or 403 Forbidden, should be used to indicate the authentication result. In the HTML content, user-friendly error messages should be displayed, without revealing specific details, to help the user understand the issue and take appropriate action.
+            </p>
+            </li>
+            </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+              <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+</section>
+</main>
+</body>
+</html>

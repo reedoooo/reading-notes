@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linked Lists Implementation</title>
+
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Custom styles for the notes section */
+      .new-section {
+        margin-top: 2rem;
+      }
+
+      .new-section h4 {
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+
+      .new-section ul {
+        list-style-type: disc;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+      }
+
+      .new-section ul li {
+        margin-top: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="header-div">
+        <h1>Linked Lists Implementation</h1>
+      </div>
+    </header>
+    <main>
+      <div id="second-heading">
+        <h2>Class 5: Linked Lists Implementation</h2>
+        <div class="date">February 1, 2023</div>
+      </div>
+      <section class="all-notes">
+        <!-- NOTES SECTION DIVIDER -->
+        <div class="new-section">
+          <h4>Teaching: Linked Lists</h4>
+          <p>
+            For my teaching, I will provide a walk-through example to explain
+            the concept of linked lists.
+          </p>
+          <ol>
+            <li>
+              Introduction:
+              <ul>
+                <li>
+                  Linked lists are a data structure consisting of nodes where
+                  each node contains data and a reference (or link) to the next
+                  node.
+                </li>
+                <li>
+                  Unlike arrays, linked lists do not require contiguous memory
+                  and can easily grow or shrink.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Example:
+              <ul>
+                <li>Imagine a linked list representing a shopping list:</li>
+                <ul>
+                  <li>
+                    The first node contains the data "Apples" and a reference to
+                    the next node.
+                  </li>
+                  <li>
+                    The second node contains the data "Bananas" and a reference
+                    to the next node.
+                  </li>
+                  <li>
+                    The third node contains the data "Oranges" and a reference
+                    to the next node.
+                  </li>
+                  <li>
+                    The last node is a special node that indicates the end of
+                    the list.
+                  </li>
+                </ul>
+              </ul>
+            </li>
+            <li>
+              Advantages of Linked Lists:
+              <ul>
+                <li>
+                  Dynamic size: Linked lists can grow or shrink as needed
+                  without wasting memory.
+                </li>
+                <li>
+                  Efficient insertions and deletions: Inserting or deleting
+                  nodes in a linked list can be done with constant time
+                  complexity if we have a reference to the node where the
+                  operation needs to be performed.
+                </li>
+              </ul>
+            </li>
+            <li>
+              Disadvantages of Linked Lists:
+              <ul>
+                <li>
+                  Access time: Accessing a specific node in a linked list
+                  requires traversing the list from the beginning, resulting in
+                  linear time complexity.
+                </li>
+                <li>
+                  Extra memory: Linked lists require additional memory to store
+                  the references to the next nodes.
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </div>
+        <!-- NOTES SECTION DIVIDER -->
+        <div class="new-section">
+          <h4>Review: What's a Linked List, Anyway pt1</h4>
+          <ul>
+            <li>
+              Linked lists are a data structure made up of nodes that are linked
+              together by references.
+            </li>
+            <li>
+              Each node contains data and a reference (or link) to the next node
+              in the list.
+            </li>
+            <li>
+              The first node is called the head, and the last node is called the
+              tail.
+            </li>
+            <li>
+              Linked lists can be singly linked (with one reference to the next
+              node) or doubly linked (with references to both the next and
+              previous nodes).
+            </li>
+          </ul>
+        </div>
+        <!-- NOTES SECTION DIVIDER -->
+        <div class="new-section">
+          <h4>Review: What's a Linked List, Anyway pt2</h4>
+          <ul>
+            <li>
+              Linked lists can be used to implement various data structures,
+              such as stacks and queues.
+            </li>
+            <li>
+              Inserting a new node into a linked list involves updating the
+              references of the neighboring nodes.
+            </li>
+            <li>
+              Deleting a node from a linked list involves redirecting the
+              references of the neighboring nodes to bypass the node being
+              deleted.
+            </li>
+            <li>
+              Linked lists are suitable for scenarios where frequent insertions
+              and deletions are required, but random access to elements is not a
+              priority.
+            </li>
+          </ul>
+        </div>
+        <!-- NOTES SECTION DIVIDER -->
+      </section>
+    </main>
+  </body>
+</html>
