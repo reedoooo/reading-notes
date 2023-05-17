@@ -81,8 +81,8 @@ Below is a directory that leads to my notes.
 
 ### **Module 2**
 
-- [Day 6: Basic Authentication](https://reedoooo.github.io/reading-notes/401-Notes/notes06.html)
-- [Day 7: Bearer Authentication](https://reedoooo.github.io/reading-notes/401-Notes/notes07.html)
+- [Day 6: Basic Auth](https://reedoooo.github.io/reading-notes/401-Notes/notes06.html)
+- [Day 7: Bearer Auth](https://reedoooo.github.io/reading-notes/401-Notes/notes07.html)
 - [Day 8: Role Based Access Control](https://reedoooo.github.io/reading-notes/401-Notes/notes08.html)
 - [Day 9: Guided Project](https://reedoooo.github.io/reading-notes/401-Notes/notes09.html)
 - [Day 10: Stacks, Queues, Personal Pitch Workshop](https://reedoooo.github.io/reading-notes/401-Notes/notes10.html)

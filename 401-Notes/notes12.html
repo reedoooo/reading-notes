@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Socket.io</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div id="header-div">
+            <h1>Socket.io</h1>
+        </div>
+    </header>
+    <main>
+        <div id="second-heading">
+            <h2>Class 12: Notes</h2>
+            <div class="date">May 17, 2023</div>
+        </div>
+
+        <section class="all-notes">
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Reading: Web Sockets</h4>
+                <ul>
+                    <li>A Web Socket is a communication protocol that provides full-duplex communication channels over a single TCP connection.</li>
+                    <li>The Web Socket request/response handshake involves the client sending a Web Socket handshake request to the server, and the server responds with a Web Socket handshake response. Once the connection is established, both the client and server can send and receive messages in real-time.</li>
+                    <li>Web Sockets provide a standardized way for the server to send content to a client without first receiving a request from that client.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Reading: Socket.io Tutorial</h4>
+                <ul>
+                    <li>The event handler io.on() in Socket.io allows us to listen for and handle events on the server-side.</li>
+                    <li>Possible proof of life or proof that the code works as expected in Socket.io can include logging server-side events, emitting events to clients and verifying if they receive them, and checking for error messages or console output.</li>
+                    <li>The socket.emit() function in Socket.io is used to send a specific event with data to a single client.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Reading: Socket.io vs Web Sockets</h4>
+                <ul>
+                    <li>The difference between WebSocket and Socket.IO is that WebSocket is a communication protocol while Socket.IO is a library that provides a higher-level API for real-time communication. WebSocket is the underlying technology, and Socket.IO builds on top of it, adding additional features and compatibility for various environments.</li>
+                    <li>You would use Socket.IO when you need real-time communication with features like event-based messaging, room management, and automatic reconnection.</li>
+                    <li>You would use WebSockets when you require a lower-level, bare-bones implementation of real-time communication without the additional features provided by Socket.IO.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Videos: OSI Model Explained</h4>
+                <ul>
+                    <li>The OSI model is a conceptual framework used to understand network communication, consisting of seven layers.</li>
+                    <li>Each layer in the OSI model plays a specific role and collaborates with other layers to enable data transfer in a network.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Videos: TCP Handshakes Explained</h4>
+                <ul>
+                    <li>TCP uses a three-way handshake process to establish a reliable connection between a client and server.</li>
+                    <li>The client and server exchange SYN and ACK packets to synchronize sequence numbers and establish a connection.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Bookmark and Review</h4>
+                <ul>
+                    <li>Review the Socket.io Documentation, including the Server API, Client API, and Socket Testing Tool.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Reflection</h4>
+                <ul>
+                    <li>After reading and reviewing the class README, my learning goals are to understand the concepts and principles of event-driven programming, gain proficiency in using Socket.io for real-time communication, and explore practical applications of event-driven architecture in web development.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+
+        </section>
+    </main>
+</body>
+
+</html>

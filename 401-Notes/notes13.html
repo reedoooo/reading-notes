@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Socket.IO Notes</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div id="header-div">
+            <h1>Socket.IO Notes</h1>
+        </div>
+    </header>
+    <main>
+        <div id="second-heading">
+            <h2>Class 13: Notes</h2>
+            <div class="date">May 17, 2023</div>
+        </div>
+
+        <section class="all-notes">
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Chat Example and Emit Method</h4>
+                <ul>
+                    <li>The Chat Example is a real-time communication application using Socket.IO.</li>
+                    <li>The proof of life on the backend is received through event acknowledgements.</li>
+                    <li>The `broadcast` flag is used to send a message to all sockets except the emitter.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Rooms</h4>
+                <ul>
+                    <li>A Room is a logical partition of connections in Socket.IO.</li>
+                    <li>To join a room, use the `join` method like `socket.join('room_name')`.</li>
+                    <li>To leave a room, use the `leave` method like `socket.leave('room_name')`.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Namespaces</h4>
+                <ul>
+                    <li>A Namespace is a higher-level grouping mechanism in Socket.IO.</li>
+                    <li>Each namespace has its own Rooms, Events, and Middleware.</li>
+                    <li>Separate namespaces can be useful for different communication channels in an application.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            
+        </section>
+    </main>
+</body>
+
+</html>
