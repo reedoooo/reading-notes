@@ -22,7 +22,7 @@
     6. Assignment Status: (complete/incomplete)
 
 - Prompt: Write a retrospective for me using the notes I provide in the numbered list below. Fill in any generic information that I do not provide to put the glue the content together. For example, if I don't provide what I learned today, you must take the details I provided about my day and fill in the missing information.
-- The retrospective must answer the following questions and each question correlates with the numbered list below. Make sure you create the retrospective as a chunk of text not an outline:
+- The retrospective must answer the following questions and each question correlates with the numbered list below. Make sure you create the retrospective as a chunk of text not an outline (max length is 2 paragraphs):
   - What went well, that I might forget if I don’t write down?
   - What did I learn today?
   - What should I do differently next time?
