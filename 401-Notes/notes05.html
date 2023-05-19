@@ -42,10 +42,21 @@
       </div>
     </header>
     <main>
+      <!-- <div id="second-heading">
+        <h2>Class 5: Linked Lists Implementation</h2>
+        <label for="date">Date:</label>
+        <input class="date" id="date" type="date" />
+      </div> -->
+      <!--...-->
       <div id="second-heading">
         <h2>Class 5: Linked Lists Implementation</h2>
-        <div class="date">February 1, 2023</div>
+        <label for="date-input">Date:</label>
+        <input type="text" id="date-input" value="February 1, 2023" label="data-input" />
+        <button id="submit-date">Submit Date</button>
+        <p id="date-p" style="display: none"></p>
       </div>
+      <!--...-->
+
       <section class="all-notes">
         <!-- NOTES SECTION DIVIDER -->
         <div class="new-section">
@@ -174,5 +185,45 @@
         <!-- NOTES SECTION DIVIDER -->
       </section>
     </main>
+    <script>
+      const titleElement = document.querySelector("#title");
+      const dateInput = document.querySelector("#date-input");
+      const dateP = document.querySelector("#date-p");
+      const submitButton = document.querySelector("#submit-date");
+
+      let newTitle = "New Linked Lists Implementation";
+      titleElement.textContent = newTitle;
+
+      // Listen for click events on the submit button
+      submitButton.addEventListener("click", () => {
+        // Transfer the date from the input field to the paragraph
+        dateP.textContent = dateInput.value;
+
+        // Hide the input field and submit button, and show the paragraph
+        dateInput.style.display = "none";
+        submitButton.style.display = "none";
+        dateP.style.display = "block";
+      });
+
+      // Listen for changes in the title
+      const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+          if (mutation.type === "characterData") {
+            // Show the input field and submit button, and hide the paragraph
+            dateInput.style.display = "block";
+            submitButton.style.display = "block";
+            dateP.style.display = "none";
+
+            // Clear the date input field
+            dateInput.value = "";
+          }
+        });
+      });
+
+      observer.observe(titleElement, {
+        characterData: true,
+        subtree: true,
+      });
+    </script>
   </body>
 </html>
