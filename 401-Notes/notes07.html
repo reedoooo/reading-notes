@@ -44,9 +44,30 @@
             <div class="new-section">
                 <h4>Videos: JWTs Explained</h4>
                 <ul>
-                    <li>JWTs are useful because they are compact and self-contained.</li>
-                    <li>The three components of a JWT signature are the header, payload, and secret key.</li>
+                    <li>JWTs are useful for authentication and authorization purposes in web applications. They provide a secure and self-contained way to transmit information (claims) between different parties. JWTs are widely adopted, compact, and can be easily validated by the recipient without needing to consult a centralized server. They enable stateless authentication, simplify session management, and support distributed systems and APIs.</li>
+                    <li>JWT is Compact and self-contained. Describe how this is useful to a non-technical friend.
+                        The compactness and self-contained nature of JWTs make them useful to a non-technical friend because they can be easily transmitted as a single string in various communication protocols (such as HTTP headers or URL parameters) without the need for additional server-side lookups. This means that the information contained within the JWT, such as user identity or permissions, is included directly in the token itself. As a result, the recipient can quickly and independently verify the authenticity and integrity of the token without relying on external resources or databases.</li>
+
+                    <li>The three components of a JWT signature are the header, payload, and secret key.<ul>
+
+                    
+                        <li>The header contains the algorithm used for signature generation (e.g., HMAC, RSA) and the token type (e.g., JWT).</li>
+                        <li>The payload contains the claims or information about the subject (e.g., user ID, permissions, expiration time).</li>
+                        <li>Signature is created by signing the concatenation of the encoded header and payload using a secret key or private key. The signature ensures the integrity and authenticity of the token.</li>
+                    </ul></li>
                 </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Reflection/Goals</h4>
+                <ul>
+                    <li>To understand the concept and purpose of JSON Web Tokens (JWTs) in web applications.</li>
+                    <li>To grasp the importance of using JWTs for authentication and authorization in distributed systems and APIs.</li>
+                    <li>To learn how to create and validate JWTs using the npm jsonwebtoken library.</li>
+                    <li>To comprehend the structure of a JWT, including the header, payload, and signature components.</li>
+                    <li>To gain knowledge about the security considerations and best practices when using JWTs.</li>
+                    <li>To explore the practical applications of JWTs in real-world scenarios, such as stateless authentication and single sign-on (SSO) architectures.</li>
+                  </ul>
             </div>
             <!------------------------------NOTES SECTION DIVIDER-------------------------------->
 
