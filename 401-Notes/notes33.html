@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>API Integration Notes</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="header-div">
+            <h1>API Integration</h1>
+        </div>
+    </header>
+    <main>
+        <div id="second-heading">
+            <h2>Class 27: API Integration</h2>
+            <div class="date">June 15, 2023</div>
+        </div>
+
+        <section class="all-notes">
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>API Server Build Review</h4>
+                <ul>
+                    <li>A query string parameter is appended to the URL with a "?" symbol and can be used to pass additional data to the API, while a path parameter forms part of the URL and is often used to identify a specific resource or resources.</li>
+                    <li>Given the provided information, the API URL with a path id parameter would be: http://our-site.com/v3/stuff/things</li>
+                    <li>Describing the dynamic API with an interface to a non-technical friend: It's like a vending machine. You push the right buttons (send the right request) and you get what you want (the response).</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Auth Server Build Review</h4>
+                <ul>
+                    <li>To use middleware for basic and bearer auth, you would incorporate the middleware functions into the route handling in your application. These functions would validate the credentials provided in the request and determine if the client is authorized to access the requested resources.</li>
+                    <li>The handshake necessary for OAuth involves the application requesting authorization from the user, the user authorizing the application, the application receiving an authorization code, and then exchanging that code for an access token.</li>
+                    <li>Explaining Role Based Access Control to a non-technical friend: It's like having different keys for different rooms in a building. Depending on your role (like being a janitor or a manager), you can access different rooms (resources).</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        </section>
+    </main>
+</body>
+
+</html>

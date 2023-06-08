@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Application State with Redux Notes</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="header-div">
+            <h1>Application State with Redux</h1>
+        </div>
+    </header>
+    <main>
+        <div id="second-heading">
+            <h2>Class 28: Application State with Redux</h2>
+            <div class="date">June 16, 2023</div>
+        </div>
+
+        <section class="all-notes">
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Dan Abramov Redux Tutorials</h4>
+                <ul>
+                    <li>The first principle of Redux is that the state of your whole application is stored in one single object.</li>
+                    <li>A store is where the state of the application is held, and we use reducers within that store to specify how the state should change based on certain actions.</li>
+                    <li>The three Redux store methods given to us by createStore are dispatch, subscribe, and getState. Dispatch is used to send actions to the store, subscribe sets up a listener that gets called every time an action is dispatched, and getState retrieves the current state of the Redux store.</li>
+                    <li>Explaining combineReducers() to a non-technical recruiter: combineReducers is a helper function that turns multiple separate reducing functions into a single reducing function. It's like having different departments in a company but having a single manager to handle all the departments.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        </section>
+    </main>
+</body>
+
+</html>

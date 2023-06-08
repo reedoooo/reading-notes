@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Redux - Additional Topics Notes</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="header-div">
+            <h1>Redux - Additional Topics</h1>
+        </div>
+    </header>
+    <main>
+        <div id="second-heading">
+            <h2>Class 33: Redux - Additional Topics</h2>
+            <div class="date">June 21, 2023</div>
+        </div>
+
+        <section class="all-notes">
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Redux Toolkit (RTK)</h4>
+                <ul>
+                    <li>Redux Toolkit addresses several concerns related to Redux development, including setting up the store configuration, reducing boilerplate code, managing global state, and handling middleware.</li>
+                    <li>The configureStore() function in Redux Toolkit simplifies the store setup by combining reducers, applying middleware, and enabling the Redux DevTools extension.</li>
+                    <li>createSlice() is a function in Redux Toolkit that automatically generates action creators and action types based on the reducers and state you define.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>MobX</h4>
+                <ul>
+                    <li>MobX is a battle-tested library that makes state management simple and scalable by transparently applying functional reactive programming (TFRP). The philosophy behind MobX is anything that can be derived from the application state, should be derived automatically.</li>
+                    <li>MobX makes it “impossible” to produce an inconsistent state by using concepts like observables and observers. Observables are used to hold the state and automatically track changes, and observers react to those changes.</li>
+                    <li>Building a reactive user interface with MobX would involve setting up your state as observables and marking your UI components as observers. This would allow your UI to react and update automatically whenever your state changes.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        </section>
+    </main>
+</body>
+
+</html>

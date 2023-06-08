@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AWS: Events</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="header-div">
+            <h1>AWS: Events</h1>
+        </div>
+    </header>
+    <main>
+        <div id="second-heading">
+            <h2>Class 19: Readings: AWS: Events</h2>
+            <div class="date">June 8, 2023</div>
+        </div>
+
+        <section class="all-notes">
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>AWS SQS vs SNS</h4>
+                <ul>
+                    <li>Difference between SQS and SNS: SQS is a pull-based, distributed message queuing service for independent component interactions, while SNS is a push-based service that manages the delivery of messages to subscribing endpoints.</li>
+                    <li>Use cases: SNS is typically used for email notifications, SMS messages, and the triggering of Lambda functions. SQS is used to buffer requests that require longer processing times, and to decouple components so they run independently.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>AWS SNS and SQS</h4>
+                <ul>
+                    <li>Using SQS and SNS in a "fanout" pattern: In a "fanout" pattern, a message is sent to an SNS topic, which then triggers multiple SQS queues, effectively copying the message to all queues in parallel.</li>
+                    <li>How "push notifications" work using SNS: A "push notification" occurs when an SNS topic has a subscribing endpoint, such as a mobile device, that receives a message published to that topic.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>SQS and SNS Basics</h4>
+                <ul>
+                    <li>Usage of a Queue system like SQS in a large scale, distributed application: SQS can be used in large scale applications to manage volumes of data and traffic, to ensure system decoupling for higher robustness, and to enable message consumption at a pace appropriate to the system's processing speed.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Reflection</h4>
+                <ul>
+                    <li>Learning goals after reading and reviewing the class README: Understanding the differences and use-cases for SQS and SNS, and how to use them in various patterns. Comprehending how a large, distributed application might utilize SQS. Becoming familiar with the SNS and SQS Javascript SDKs.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        </section>
+    </main>
+</body>
+
+</html>

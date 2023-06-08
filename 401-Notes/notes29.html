@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Advanced State with Reducers Notes</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="header-div">
+            <h1>Advanced State with Reducers</h1>
+        </div>
+    </header>
+    <main>
+        <div id="second-heading">
+            <h2>Class 23: Advanced State with Reducers</h2>
+            <div class="date">June 11, 2023</div>
+        </div>
+
+        <section class="all-notes">
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Extracting State Logic into a Reducer</h4>
+                <ul>
+                    <li>Motivation for adding a reducer: To manage more complex state logic that involves multiple sub-values or when the next state depends on the previous one.</li>
+                    <li>Actions in the context of a reducer: Actions are objects that contain information about what happened and what needs to change. They're different from setting state directly because they describe a user's action, not the new state.</li>
+                    <li>Common list operation that useReduce is named for: Reducing a collection of values down to a single value.</li>
+                    <li>Switching from useState to useReducer: When state logic becomes complex due to multiple sub-values, or when the next state depends on the previous one, it's good to switch to useReducer.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Reflection</h4>
+                <ul>
+                    <li>Learning goals after reading and reviewing the class README: Understanding the concept of reducers and how they can be used to manage complex state in React applications.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        </section>
+    </main>
+</body>
+
+</html>

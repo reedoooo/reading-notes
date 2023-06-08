@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Redux - Asynchronous Actions Notes</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="header-div">
+            <h1>Redux - Asynchronous Actions</h1>
+        </div>
+    </header>
+    <main>
+        <div id="second-heading">
+            <h2>Class 30: Redux - Asynchronous Actions</h2>
+            <div class="date">June 18, 2023</div>
+        </div>
+
+        <section class="all-notes">
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Async Actions</h4>
+                <ul>
+                    <li>We use Redux middleware to handle side effects, like asynchronous logic, logging, and more. It provides a third-party extension point between dispatching an action and the moment it reaches the reducer.</li>
+                    <li>The Redux Async Data Flow Diagram describes the flow of data in Redux when dealing with asynchronous actions. It typically starts with dispatching an action that requests data, followed by the async request, and then dispatching another action when the request returns.</li>
+                    <li>We accommodate async in our Redux app by using middlewares such as Redux Thunk or Redux Saga that allows action creators to return a function instead of an action object.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Thunk Middleware</h4>
+                <ul>
+                    <li>We need Redux Thunk middleware to allow action creators to return a function instead of an action object. This allows the action creator to perform asynchronous tasks.</li>
+                    <li>Redux Thunk middleware allows action creators to return a function that can dispatch other actions and perform asynchronous requests.</li>
+                    <li>Any return value from the inner thunk function will be made available as the return value of the dispatch method.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        </section>
+    </main>
+</body>
+
+</html>

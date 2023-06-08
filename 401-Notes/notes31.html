@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Context API - Behaviors Notes</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="header-div">
+            <h1>Context API - Behaviors</h1>
+        </div>
+    </header>
+    <main>
+        <div id="second-heading">
+            <h2>Class 25: Context API - Behaviors</h2>
+            <div class="date">June 13, 2023</div>
+        </div>
+
+        <section class="all-notes">
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Scaling Up with Reducer and Context</h4>
+                <ul>
+                    <li>useReducer and useContext can work together to simplify state management in a React application. UseReducer provides a way to handle complex state logic involving multiple sub-values or when the next state depends on the previous one, effectively reducing complexity. It defines a reducer function with a dispatch method that triggers state changes.</li>
+                    <li>On the other hand, useContext provides a way to pass data through the component tree without having to pass props down manually at every level, a problem known as "prop drilling". By combining useReducer for state management and useContext for state distribution, we can create a more scalable and easy-to-manage state architecture in larger applications.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        </section>
+    </main>
+</body>
+
+</html>

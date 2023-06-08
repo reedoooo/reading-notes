@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Context API Notes</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="header-div">
+            <h1>Context API</h1>
+        </div>
+    </header>
+    <main>
+        <div id="second-heading">
+            <h2>Class 24: Context API</h2>
+            <div class="date">June 12, 2023</div>
+        </div>
+
+        <section class="all-notes">
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Choosing the State Structure</h4>
+                <ul>
+                    <li>Five principles for structuring state: Define as little state as possible, keep state close to where it's needed, allow state to be passed easily, contain state within a component, and try to structure state to mirror the UI structure.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Passing State Deeply with Context</h4>
+                <ul>
+                    <li>Problem Contexts aim to solve: Prop drilling - passing data through many layers of components.</li>
+                    <li>One technique to try before useContext: Component Composition - where components are broken down into smaller components that manage their own state.</li>
+                    <li>Hook that complements useContext for complex applications: useReducer - it helps to manage complex state logic that involves multiple sub-values or when the next state depends on the previous one.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        </section>
+    </main>
+</body>
+
+</html>

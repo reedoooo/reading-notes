@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>useState() Hook Notes</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="header-div">
+            <h1>useState() Hook</h1>
+        </div>
+    </header>
+    <main>
+        <div id="second-heading">
+            <h2>Class 21: useState() Hook</h2>
+            <div class="date">June 9, 2023</div>
+        </div>
+
+        <section class="all-notes">
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Thinking in React</h4>
+                <ul>
+                    <li>Five steps of thinking in React: Start with a mock, break the UI into a component hierarchy, build a static version in React, identify the minimal representation of UI state, add inverse data flow.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>State: A Component’s Memory</h4>
+                <ul>
+                    <li>Reason a local variable isn’t sufficient for managing a React component: Local variables don't trigger a re-render when their values change, unlike state variables.</li>
+                    <li>Argument to the useState hook and the two parts of its return array: The argument to useState is the initial state, and it returns an array where the first element is the current state and the second is a function to update it.</li>
+                    <li>How Component A can access state from Component B: Component A can access Component B's state by lifting the state up to their closest common ancestor, or using context or a state management library like Redux.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Reflection</h4>
+                <ul>
+                    <li>Learning goals after reading and reviewing the class README: Gaining a deeper understanding of the useState hook and how to use it for state management in React components.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        </section>
+    </main>
+</body>
+
+</html>

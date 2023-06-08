@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Component Based UI Notes</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="header-div">
+            <h1>Component Based UI</h1>
+        </div>
+    </header>
+    <main>
+        <div id="second-heading">
+            <h2>Class 20: Component Based UI</h2>
+            <div class="date">June 8, 2023</div>
+        </div>
+
+        <section class="all-notes">
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>React Quick Start</h4>
+                <ul>
+                    <li>Building blocks of a React app: The main building blocks of a React app are components, which are JavaScript classes or functions that optionally accept inputs (props) and return a React element.</li>
+                    <li>Difference between an HTML element and a React component: An HTML element represents a webpage element like a button or a paragraph, while a React component is a JavaScript class or function that accepts inputs and returns a React element.</li>
+                    <li>JSX and its usage: JSX is a syntax extension for JavaScript that allows you to write HTML-like code in your JavaScript files. It's used in React to define the structure and appearance of a component's UI.</li>
+                    <li>JavaScript expressions in JSX: JavaScript expressions can be embedded in JSX by wrapping them in curly braces.</li>
+                    <li>React's features for iteration or conditional logic: React doesn't have special syntax for loops or conditions. Instead, it leverages JavaScript's native conditional and looping constructs.</li>
+                    <li>React's response to user inputs: React responds to user inputs by using a system of "events", which are triggered on user interactions and can be handled with functions.</li>
+                    <li>Indication of a React component managing data with a Hook: The use of a Hook in a React component is indicated by the prefix "use" in a function.</li>
+                    <li>Sharing data between two React components: Two React components can share data by passing it via props, or by using state and context, or a state management library like Redux.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Render and Commit</h4>
+                <ul>
+                    <li>Three steps of refreshing a React UI: The three steps are "render", "commit", and "update".</li>
+                    <li>Triggering updates to a component after the initial render: Updates can be triggered by state changes, prop changes, or forced updates.</li>
+                    <li>React's recreation of DOM nodes on every rerender: React doesn't recreate DOM nodes on every rerender. It uses a "diffing" algorithm to identify changes and only updates those.</li>
+                    <li>Steps after React has updated the DOM: After the DOM has been updated, the browser's rendering engine must paint the changes to the screen.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Additional Questions</h4>
+                <ul>
+                    <li>Airbnb React/JSX Style Guide naming conventions: Naming conventions often involve using PascalCase for component names and camelCase for their instances.</li>
+                    <li>Looking ahead at this module’s course schedule: Excitement to learn more about advanced React patterns and state management solutions.</li>
+                    <li>Learning goals after reading and reviewing the class README: Gaining a deep understanding of component-based UI development with React, and becoming proficient in using JSX, props, state, and hooks.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        </section>
+    </main>
+</body>
+
+</html>
