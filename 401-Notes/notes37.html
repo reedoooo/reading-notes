@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Redux - Additional Topics Notes</title>
+    <title>Redux - Combined Reducers Notes</title>
 
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./styles.css">
@@ -16,39 +16,41 @@
 <body>
     <header>
         <div id="header-div">
-            <h1>Redux - Additional Topics</h1>
+            <h1>Redux - Combined Reducers</h1>
         </div>
     </header>
     <main>
         <div id="second-heading">
-            <h2>Class 31: Redux - Additional Topics</h2>
-            <div class="date">June 19, 2023</div>
+            <h2>Class 32: Redux - Combined Reducers</h2>
+            <div class="date">June 20, 2023</div>
         </div>
 
         <section class="all-notes">
             <!------------------------------NOTES SECTION DIVIDER-------------------------------->
             <div class="new-section">
-                <h4>Redux Toolkit (RTK)</h4>
+                <h4>Multiple Reducers Example</h4>
                 <ul>
-                    <li>Redux Toolkit addresses concerns about the complexity of setup and configuration in Redux. It provides a set of utilities that simplifies the process of setting up and using Redux in your application.</li>
-                    <li>configureStore() is a function provided by Redux Toolkit that simplifies the store setup. It automatically combines your slice reducers, adds whatever Redux middleware you supply, includes redux-thunk for async logic, and enables use of the Redux DevTools Extension.</li>
-                    <li>createSlice() is a function in Redux Toolkit that automatically generates action creators and action types that correspond to the reducers and state.</li>
+                    <li>Creating multiple reducers helps to separate concerns within your application and makes your code more maintainable and easy to reason about. Each reducer manages a particular state.</li>
+                    <li>Multiple reducers can be combined using the combineReducers() function provided by Redux. This function takes an object whose values are different reducing functions and merges them into a single reducing function.</li>
+                    <li>State in Redux is managed as an immutable object to maintain consistency and predictability in your application. By treating the state as immutable, you can ensure that changes to the state can only occur through actions and reducers, which makes the state changes traceable and easier to debug.</li>
                 </ul>
             </div>
             <!------------------------------NOTES SECTION DIVIDER-------------------------------->
             <div class="new-section">
-                <h4>MobX</h4>
+                <h4>Redux Docs: Using Combined Reducers</h4>
                 <ul>
-                    <li>MobX is a state management library for JavaScript apps. It's reactive and functional, which makes it easy to manage and structure applications' state.</li>
-                    <li>MobX makes it "impossible" to produce an inconsistent state by using observables and reactions to automatically track the relationships between state and output, ensuring that the state is always updated correctly.</li>
-                    <li>To build a reactive user interface with MobX, you would use observables to track the state and reactions (like computed values or reaction functions) to update the UI based on changes in the state.</li>
+                    <li>combineReducers is a utility function to simplify the most common use case when writing reducers. It turns an object whose values are different reducing functions into a single reducing function that can be passed to createStore.</li>
+                    <li>combineReducers assembles the new state tree by calling every reducer with the corresponding state and action, and combines their results into a single state tree.</li>
+                    <li>Initial state in an app using combineReducers can be defined as the default parameter value of the reducer functions.</li>
                 </ul>
             </div>
             <!------------------------------NOTES SECTION DIVIDER-------------------------------->
             <div class="new-section">
-                <h4>Tutorial</h4>
+                <h4>Redux Docs: Combined Reducer Syntax</h4>
                 <ul>
-                    <li>From the tutorial, you would take away specific knowledge on how to utilize the tools you've been learning about in a practical application.</li>
+                    <li>You might want to split your reducing functions as your app becomes more complex to keep different pieces of state managed separately and make your code easier to understand and maintain.</li>
+                    <li>The combineReducers helper function turns an object whose values are different reducing functions into a single reducing function you can pass to createStore.</li>
+                    <li>A popular convention when naming reducers is to name them after the state slices they manage. This makes it easier to understand which part of the state a reducer is responsible for.</li>
                 </ul>
             </div>
             <!------------------------------NOTES SECTION DIVIDER-------------------------------->
@@ -57,3 +59,67 @@
 </body>
 
 </html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Redux - Combined Reducers Notes</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="header-div">
+            <h1>Redux - Combined Reducers</h1>
+        </div>
+    </header>
+    <main>
+        <div id="second-heading">
+            <h2>Class 29: Redux - Combined Reducers</h2>
+            <div class="date">June 17, 2023</div>
+        </div>
+
+        <section class="all-notes">
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Multiple Reducers Example</h4>
+                <ul>
+                    <li>Creating multiple reducers allows us to split the logic of our app into smaller, more manageable chunks, improving code readability and maintainability.</li>
+                    <li>We combine multiple reducers using the combineReducers function in Redux.</li>
+                    <li>We manage state as an immutable object to ensure that we don't directly modify the state, which helps prevent unwanted side effects and makes debugging easier.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Redux Docs: Using Combined Reducers</h4>
+                <ul>
+                    <li>CombineReducers is a utility function to simplify the most common use case when writing Redux.</li>
+                    <li>CombineReducers assembles the new state tree by calling every reducer with the current state and the dispatched action and combining their results.</li>
+                    <li>You define the initial state in an app using combineReducers by providing it as the second argument to the createStore function.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Redux Docs: Combined Reducer Syntax</h4>
+                <ul>
+                    <li>As your app becomes more complex, you would want to split your reducing functions to maintain clarity and organization of your code.</li>
+                    <li>The combineReducers helper function turns an object whose values are different reducing functions into a single reducing function you can pass to createStore.</li>
+                    <li>It's a popular convention to name reducers after the state slices they manage.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+        </section>
+    </main>
+</body>
+
+</html> -->

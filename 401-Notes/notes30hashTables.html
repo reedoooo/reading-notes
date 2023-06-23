@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Understanding Hash Tables</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div id="header-div">
+            <h1>Understanding Hash Tables</h1>
+        </div>
+    </header>
+    <main>
+        <div id="second-heading">
+            <h2>Data Structures and Algorithms: Notes</h2>
+            <div class="date">June 23, 2023</div>
+        </div>
+
+        <section class="all-notes">
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>What is a Hash Table?</h4>
+                <ul>
+                    <li>A hash table, also known as a hash map, is a data structure that implements an associative array abstract data type, a structure that can map keys to values.</li>
+                    <li>Hash tables use a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.</li>
+                    <li>Ideally, the hash function will assign each key to a unique bucket, but most hash table designs employ an imperfect hash function, which might cause hash collisions where the hash function generates the same index for more than one key.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>How Does a Hash Table Work?</h4>
+                <ul>
+                    <li>When storing an item in the hash table, the programmer would provide the key and the value.</li>
+                    <li>The hash table then applies the hash function to the key, which returns an index into the array that forms the hash table. This index determines where the value is stored.</li>
+                    <li>When retrieving the value, the same key is used to compute the hash, which yields the array index. The value can then be found in the array at this index.</li>
+                    <li>Collisions are handled through various techniques, such as chaining (which forms a linked list of entries with the same hash) or open addressing (which seeks to find the next empty slot when a collision occurs).</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            
+        </section>
+    </main>
+</body>
+
+</html>

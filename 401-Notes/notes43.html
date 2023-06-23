@@ -1,0 +1,65 @@
+Here's an example of how you might approach this assignment.
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Introduction to React Native</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div id="header-div">
+            <h1>Introduction to React Native</h1>
+        </div>
+    </header>
+    <main>
+        <div id="second-heading">
+            <h2>Mobile Development: Notes</h2>
+            <div class="date">June 23, 2023</div>
+        </div>
+
+        <section class="all-notes">
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>React Native Core Components</h4>
+                <ul>
+                    <li>View: This is a container that supports layout with flexbox, style, some touch handling, and accessibility controls.</li>
+                    <li>Text: This component displays read-only text to the user. It can be styled and nested, but doesn't allow for raw user input or editable text.</li>
+                    <li>Image: This component is used to display different types of images, including network images, static resources, temporary local images, and images from local disks, such as the camera roll.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Expo and React Native</h4>
+                <ul>
+                    <li>Expo is a framework and a platform for universal React applications. It is a set of tools and services built around React Native and native platforms that help you develop, build, deploy, and quickly iterate on iOS, Android, and web apps.</li>
+                    <li>Expo simplifies the process of developing a React Native app by handling a lot of the complexities and challenges. Hence, it can be referred to as the managed workflow.</li>
+                    <li>The difference between React Native and Expo is that while React Native is a framework for building native apps using JavaScript and React, Expo can be understood as a sort of wrapper around React Native which offers additional, convenient functionalities.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            <div class="new-section">
+                <h4>Ejecting in Expo</h4>
+                <ul>
+                    <li>Ejecting in Expo refers to the process of switching from the managed workflow (using Expo's services) to the bare workflow (using only React Native and its libraries).</li>
+                    <li>You should not eject if you want to continue using Expo's convenient features and don't need to write custom native code.</li>
+                    <li>You might choose to eject if you need to write custom native code or integrate with a specific native library that is not supported by Expo.</li>
+                </ul>
+            </div>
+            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
+            
+        </section>
+    </main>
+</body>
+
+</html>

@@ -116,15 +116,15 @@ Below is a directory that leads to my notes.
 - [Day 26: React - Function Components](https://reedoooo.github.io/reading-notes/401-Notes/notes26.html)
 - [Day 27: React - State Hook](https://reedoooo.github.io/reading-notes/401-Notes/notes27.html)
 - [Day 28: React - Effect Hook and Lifecycle](https://reedoooo.github.io/reading-notes/401-Notes/notes28.html)
-- [Day 29: React - Reducer Hook](https://reedoooo.github.io/reading-notes/401-Notes/notes29.html)
-- [Day 30: Hash Tables, Behavioral Interview Workshop](https://reedoooo.github.io/reading-notes/401-Notes/notes30.html)
+- [Day 29: React - Advanced State with Reducers](https://reedoooo.github.io/reading-notes/401-Notes/notes29.html)
+- [Day 30: HashTables](https://reedoooo.github.io/reading-notes/401-Notes/notes30.html)
 
 ### **Module 7**
 
-- [Day 31: React - Context API](https://reedoooo.github.io/reading-notes/401-Notes/notes31.html)
-- [Day 32: React - Context API](https://reedoooo.github.io/reading-notes/401-Notes/notes32.html)
+- [Day 31: React - Context API Notes](https://reedoooo.github.io/reading-notes/401-Notes/notes31.html)
+- [Day 32: React - Context API, Behaviors](https://reedoooo.github.io/reading-notes/401-Notes/notes32.html)
 - [Day 33: React - Cookies, Local Storage Login and Auth components](https://reedoooo.github.io/reading-notes/401-Notes/notes33.html)
-- [Day 34: React - RBAC](https://reedoooo.github.io/reading-notes/401-Notes/notes34.html)
+- [Day 34: React - API Integration](https://reedoooo.github.io/reading-notes/401-Notes/notes34.html)
 - [Day 35: Graphs, Technical Interview Workshop](https://reedoooo.github.io/reading-notes/401-Notes/notes35.html)
 
 ### **Module 8**
@@ -133,13 +133,14 @@ Below is a directory that leads to my notes.
 - [Day 37: Redux - Combined Reducers](https://reedoooo.github.io/reading-notes/401-Notes/notes37.html)
 - [Day 38: Redux - Asynchronous Actions](https://reedoooo.github.io/reading-notes/401-Notes/notes38.html)
 - [Day 39: Redux - Alternatives and Advanced Usage](https://reedoooo.github.io/reading-notes/401-Notes/notes39.html)
-- [Day 40: Personal Presentation](https://reedoooo.github.io/reading-notes/401-Notes/notes40.html)
+- [Day 40a: Ethics](https://reedoooo.github.io/reading-notes/401-Notes/notes40a.html)
+- [Day 40b: Open-Source Software Contribution](https://reedoooo.github.io/reading-notes/401-Notes/notes40b.html)
 
 ### **Module 9**
 
 - [Day 41: React Native](https://reedoooo.github.io/reading-notes/401-Notes/notes41.html)
 - [Day 42: React Native](https://reedoooo.github.io/reading-notes/401-Notes/notes42.html)
-- [Day 43: Open Source](https://reedoooo.github.io/reading-notes/401-Notes/notes43.html)
+- [Day 43: React Native](https://reedoooo.github.io/reading-notes/401-Notes/notes43.html)
 - [Day 44: Ethics](https://reedoooo.github.io/reading-notes/401-Notes/notes44.html)
 - [Day 45: Project Kickoffs](https://reedoooo.github.io/reading-notes/401-Notes/notes45.html)
 

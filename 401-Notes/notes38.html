@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Redux - Combined Reducers Notes</title>
+    <title>Redux - Asynchronous Actions Notes</title>
 
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./styles.css">
@@ -16,41 +16,32 @@
 <body>
     <header>
         <div id="header-div">
-            <h1>Redux - Combined Reducers</h1>
+            <h1>Redux - Asynchronous Actions</h1>
         </div>
     </header>
     <main>
         <div id="second-heading">
-            <h2>Class 32: Redux - Combined Reducers</h2>
-            <div class="date">June 20, 2023</div>
+            <h2>Class 30: Redux - Asynchronous Actions</h2>
+            <div class="date">June 18, 2023</div>
         </div>
 
         <section class="all-notes">
             <!------------------------------NOTES SECTION DIVIDER-------------------------------->
             <div class="new-section">
-                <h4>Multiple Reducers Example</h4>
+                <h4>Async Actions</h4>
                 <ul>
-                    <li>Creating multiple reducers helps to separate concerns within your application and makes your code more maintainable and easy to reason about. Each reducer manages a particular state.</li>
-                    <li>Multiple reducers can be combined using the combineReducers() function provided by Redux. This function takes an object whose values are different reducing functions and merges them into a single reducing function.</li>
-                    <li>State in Redux is managed as an immutable object to maintain consistency and predictability in your application. By treating the state as immutable, you can ensure that changes to the state can only occur through actions and reducers, which makes the state changes traceable and easier to debug.</li>
+                    <li>We use Redux middleware to handle side effects, like asynchronous logic, logging, and more. It provides a third-party extension point between dispatching an action and the moment it reaches the reducer.</li>
+                    <li>The Redux Async Data Flow Diagram describes the flow of data in Redux when dealing with asynchronous actions. It typically starts with dispatching an action that requests data, followed by the async request, and then dispatching another action when the request returns.</li>
+                    <li>We accommodate async in our Redux app by using middlewares such as Redux Thunk or Redux Saga that allows action creators to return a function instead of an action object.</li>
                 </ul>
             </div>
             <!------------------------------NOTES SECTION DIVIDER-------------------------------->
             <div class="new-section">
-                <h4>Redux Docs: Using Combined Reducers</h4>
+                <h4>Thunk Middleware</h4>
                 <ul>
-                    <li>combineReducers is a utility function to simplify the most common use case when writing reducers. It turns an object whose values are different reducing functions into a single reducing function that can be passed to createStore.</li>
-                    <li>combineReducers assembles the new state tree by calling every reducer with the corresponding state and action, and combines their results into a single state tree.</li>
-                    <li>Initial state in an app using combineReducers can be defined as the default parameter value of the reducer functions.</li>
-                </ul>
-            </div>
-            <!------------------------------NOTES SECTION DIVIDER-------------------------------->
-            <div class="new-section">
-                <h4>Redux Docs: Combined Reducer Syntax</h4>
-                <ul>
-                    <li>You might want to split your reducing functions as your app becomes more complex to keep different pieces of state managed separately and make your code easier to understand and maintain.</li>
-                    <li>The combineReducers helper function turns an object whose values are different reducing functions into a single reducing function you can pass to createStore.</li>
-                    <li>A popular convention when naming reducers is to name them after the state slices they manage. This makes it easier to understand which part of the state a reducer is responsible for.</li>
+                    <li>We need Redux Thunk middleware to allow action creators to return a function instead of an action object. This allows the action creator to perform asynchronous tasks.</li>
+                    <li>Redux Thunk middleware allows action creators to return a function that can dispatch other actions and perform asynchronous requests.</li>
+                    <li>Any return value from the inner thunk function will be made available as the return value of the dispatch method.</li>
                 </ul>
             </div>
             <!------------------------------NOTES SECTION DIVIDER-------------------------------->
