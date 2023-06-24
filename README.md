@@ -117,14 +117,14 @@ Below is a directory that leads to my notes.
 - [Day 27: React - State Hook](https://reedoooo.github.io/reading-notes/401-Notes/notes27.html)
 - [Day 28: React - Effect Hook and Lifecycle](https://reedoooo.github.io/reading-notes/401-Notes/notes28.html)
 - [Day 29: React - Advanced State with Reducers](https://reedoooo.github.io/reading-notes/401-Notes/notes29.html)
-- [Day 30: HashTables](https://reedoooo.github.io/reading-notes/401-Notes/notes30.html)
+- [Day 30: HashTables](https://reedoooo.github.io/reading-notes/401-Notes/notes30hashTables.html)
 
 ### **Module 7**
 
 - [Day 31: React - Context API Notes](https://reedoooo.github.io/reading-notes/401-Notes/notes31.html)
 - [Day 32: React - Context API, Behaviors](https://reedoooo.github.io/reading-notes/401-Notes/notes32.html)
 - [Day 33: React - Cookies, Local Storage Login and Auth components](https://reedoooo.github.io/reading-notes/401-Notes/notes33.html)
-- [Day 34: React - API Integration](https://reedoooo.github.io/reading-notes/401-Notes/notes34.html)
+- [Day 34: React - API Integration](https://reedoooo.github.io/reading-notes/401-Notes/notes34graphs.html)
 - [Day 35: Graphs, Technical Interview Workshop](https://reedoooo.github.io/reading-notes/401-Notes/notes35.html)
 
 ### **Module 8**
