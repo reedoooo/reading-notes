@@ -133,6 +133,7 @@ Below is a directory that leads to my notes.
 - [Day 37: Redux - Combined Reducers](https://reedoooo.github.io/reading-notes/401-Notes/notes37.html)
 - [Day 38: Redux - Asynchronous Actions](https://reedoooo.github.io/reading-notes/401-Notes/notes38.html)
 - [Day 39: Redux - Alternatives and Advanced Usage](https://reedoooo.github.io/reading-notes/401-Notes/notes39.html)
+- [Day 40: Gatsby/Next](https://reedoooo.github.io/reading-notes/401-Notes/notes40.html)
 - [Day 40a: Ethics](https://reedoooo.github.io/reading-notes/401-Notes/notes40a.html)
 - [Day 40b: Open-Source Software Contribution](https://reedoooo.github.io/reading-notes/401-Notes/notes40b.html)
 

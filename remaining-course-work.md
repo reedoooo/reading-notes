@@ -24,7 +24,7 @@
 
 ### Quizzes
 
-- [ ] Feedback: Week 7
+- [x] Feedback: Week 7
 
 ### Career Assignments
 
@@ -69,7 +69,7 @@
 
 ### Reading Assignments (2)
 
-- [x] Class 35
+- [x] Class 35:
 - [x] Class 36:
 - [x] Class 37:
 
